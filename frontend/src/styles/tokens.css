@@ -1,0 +1,132 @@
+/* Design Tokens: AI Powered Compiler Error Tutor */
+/* Defined once, reused everywhere. Warm off-white / soft charcoal palette with muted sage/teal accent. */
+
+:root {
+  /* Spacing: Consistent 8px grid */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Modest Corner Radius (6-8px) */
+  --radius-xs: 3px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.8125rem;  /* 13px */
+  --text-base: 0.875rem; /* 14px */
+  --text-md: 1rem;       /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.5rem;    /* 24px */
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+
+  /* Light Theme Palette (Default) */
+  --bg-app: #f7f9fa;
+  --bg-surface: #ffffff;
+  --bg-surface-subtle: #f1f4f6;
+  --bg-surface-active: #e7ecf0;
+
+  --border-subtle: #e5e9ec;
+  --border-default: #d8dee4;
+  --border-strong: #b8c2cc;
+  --border-focus: #347669;
+
+  --text-primary: #1e293b;   /* Dark slate */
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-inverse: #ffffff;
+
+  /* Muted Sage / Teal Accent */
+  --accent-primary: #2d6a5f;
+  --accent-hover: #24564d;
+  --accent-active: #1c453d;
+  --accent-subtle: #edf5f3;
+  --accent-border: #b8dcd5;
+
+  /* Gentle Feedback Colors */
+  --status-error-text: #b91c1c;
+  --status-error-bg: #fef2f2;
+  --status-error-border: #fecaca;
+
+  --status-warning-text: #b45309;
+  --status-warning-bg: #fffbeb;
+  --status-warning-border: #fde68a;
+
+  --status-success-text: #15803d;
+  --status-success-bg: #f0fdf4;
+  --status-success-border: #bbf7d0;
+
+  --status-info-text: #1e40af;
+  --status-info-bg: #eff6ff;
+  --status-info-border: #bfdbfe;
+
+  /* Subtle 1px box shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+}
+
+/* Dark Theme Palette (Soft Charcoal) */
+[data-theme="dark"] {
+  --bg-app: #14171a;
+  --bg-surface: #1e2227;
+  --bg-surface-subtle: #262b32;
+  --bg-surface-active: #2f353e;
+
+  --border-subtle: #2b313a;
+  --border-default: #373f4b;
+  --border-strong: #4a5463;
+  --border-focus: #52a393;
+
+  --text-primary: #e2e8f0;   /* Soft slate */
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-inverse: #0f172a;
+
+  /* Muted Sage / Teal Accent (Dark) */
+  --accent-primary: #459a8c;
+  --accent-hover: #54ad9e;
+  --accent-active: #388275;
+  --accent-subtle: #192a27;
+  --accent-border: #294c44;
+
+  /* Gentle Feedback Colors (Dark) */
+  --status-error-text: #f87171;
+  --status-error-bg: #2b1719;
+  --status-error-border: #4d2327;
+
+  --status-warning-text: #fbbf24;
+  --status-warning-bg: #292314;
+  --status-warning-border: #4e4020;
+
+  --status-success-text: #4ade80;
+  --status-success-bg: #15271b;
+  --status-success-border: #22492f;
+
+  --status-info-text: #60a5fa;
+  --status-info-bg: #172439;
+  --status-info-border: #253d61;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
