@@ -1,0 +1,41 @@
+id,seed_id,split,category,stage,severity,primary_message,primary_notes,primary_hints,has_did_you_mean,has_did_you_forget_include,is_linker_error,error_line,error_column,num_errors,num_followon,has_include_iostream,has_include_vector,has_include_string,has_include_map,has_using_namespace_std,uses_std_prefix
+out_of_scope_0001,,out_of_scope,,UNKNOWN,error,lvalue required as left operand of assignment,,,False,False,False,4,10,1,0,True,False,False,False,False,False
+out_of_scope_0002,,out_of_scope,,UNKNOWN,error,'else' without a previous 'if',,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0003,,out_of_scope,,UNKNOWN,error,break statement not within loop or switch,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0004,,out_of_scope,,UNKNOWN,error,continue statement not within a loop,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0005,,out_of_scope,,UNKNOWN,error,'int Hidden::secret' is private within this context,declared private here,,False,False,False,8,7,1,0,True,False,False,False,False,False
+out_of_scope_0006,,out_of_scope,,UNKNOWN,error,no match for 'operator<<' in 'std::cout << d' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'MyData'),"candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = MyData] <near match> || conversion of argument 1 would be ill-formed:",,False,False,False,5,15,2,1,True,False,False,False,False,True
+out_of_scope_0007,,out_of_scope,,UNKNOWN,error,invalid types 'int[int]' for array subscript,,,False,False,False,4,23,1,0,True,False,False,False,False,False
+out_of_scope_0008,,out_of_scope,,UNKNOWN,error,case label '1' not within a switch statement,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0009,,out_of_scope,,UNKNOWN,error,lvalue required as left operand of assignment,,,False,False,False,4,10,1,0,True,False,False,False,False,False
+out_of_scope_0010,,out_of_scope,,UNKNOWN,error,'else' without a previous 'if',,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0011,,out_of_scope,,UNKNOWN,error,break statement not within loop or switch,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0012,,out_of_scope,,UNKNOWN,error,continue statement not within a loop,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0013,,out_of_scope,,UNKNOWN,error,'int Hidden::secret' is private within this context,declared private here,,False,False,False,8,7,1,0,True,False,False,False,False,False
+out_of_scope_0014,,out_of_scope,,UNKNOWN,error,no match for 'operator<<' in 'std::cout << d' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'MyData'),"candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = MyData] <near match> || conversion of argument 1 would be ill-formed:",,False,False,False,5,15,2,1,True,False,False,False,False,True
+out_of_scope_0015,,out_of_scope,,UNKNOWN,error,invalid types 'int[int]' for array subscript,,,False,False,False,4,23,1,0,True,False,False,False,False,False
+out_of_scope_0016,,out_of_scope,,UNKNOWN,error,case label '1' not within a switch statement,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0017,,out_of_scope,,UNKNOWN,error,lvalue required as left operand of assignment,,,False,False,False,4,10,1,0,True,False,False,False,False,False
+out_of_scope_0018,,out_of_scope,,UNKNOWN,error,'else' without a previous 'if',,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0019,,out_of_scope,,UNKNOWN,error,break statement not within loop or switch,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0020,,out_of_scope,,UNKNOWN,error,continue statement not within a loop,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0021,,out_of_scope,,UNKNOWN,error,'int Hidden::secret' is private within this context,declared private here,,False,False,False,8,7,1,0,True,False,False,False,False,False
+out_of_scope_0022,,out_of_scope,,UNKNOWN,error,no match for 'operator<<' in 'std::cout << d' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'MyData'),"candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = MyData] <near match> || conversion of argument 1 would be ill-formed:",,False,False,False,5,15,2,1,True,False,False,False,False,True
+out_of_scope_0023,,out_of_scope,,UNKNOWN,error,invalid types 'int[int]' for array subscript,,,False,False,False,4,23,1,0,True,False,False,False,False,False
+out_of_scope_0024,,out_of_scope,,UNKNOWN,error,case label '1' not within a switch statement,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0025,,out_of_scope,,UNKNOWN,error,lvalue required as left operand of assignment,,,False,False,False,4,10,1,0,True,False,False,False,False,False
+out_of_scope_0026,,out_of_scope,,UNKNOWN,error,'else' without a previous 'if',,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0027,,out_of_scope,,UNKNOWN,error,break statement not within loop or switch,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0028,,out_of_scope,,UNKNOWN,error,continue statement not within a loop,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0029,,out_of_scope,,UNKNOWN,error,'int Hidden::secret' is private within this context,declared private here,,False,False,False,8,7,1,0,True,False,False,False,False,False
+out_of_scope_0030,,out_of_scope,,UNKNOWN,error,no match for 'operator<<' in 'std::cout << d' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'MyData'),"candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = MyData] <near match> || conversion of argument 1 would be ill-formed:",,False,False,False,5,15,2,1,True,False,False,False,False,True
+out_of_scope_0031,,out_of_scope,,UNKNOWN,error,invalid types 'int[int]' for array subscript,,,False,False,False,4,23,1,0,True,False,False,False,False,False
+out_of_scope_0032,,out_of_scope,,UNKNOWN,error,case label '1' not within a switch statement,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0033,,out_of_scope,,UNKNOWN,error,lvalue required as left operand of assignment,,,False,False,False,4,10,1,0,True,False,False,False,False,False
+out_of_scope_0034,,out_of_scope,,UNKNOWN,error,'else' without a previous 'if',,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0035,,out_of_scope,,UNKNOWN,error,break statement not within loop or switch,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0036,,out_of_scope,,UNKNOWN,error,continue statement not within a loop,,,False,False,False,4,5,1,0,True,False,False,False,False,False
+out_of_scope_0037,,out_of_scope,,UNKNOWN,error,'int Hidden::secret' is private within this context,declared private here,,False,False,False,8,7,1,0,True,False,False,False,False,False
+out_of_scope_0038,,out_of_scope,,UNKNOWN,error,no match for 'operator<<' in 'std::cout << d' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'MyData'),"candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = MyData] <near match> || conversion of argument 1 would be ill-formed:",,False,False,False,5,15,2,1,True,False,False,False,False,True
+out_of_scope_0039,,out_of_scope,,UNKNOWN,error,invalid types 'int[int]' for array subscript,,,False,False,False,4,23,1,0,True,False,False,False,False,False
+out_of_scope_0040,,out_of_scope,,UNKNOWN,error,case label '1' not within a switch statement,,,False,False,False,4,5,1,0,True,False,False,False,False,False

@@ -1,0 +1,202 @@
+[
+  {
+    "file": "oos_lvalue_required_01.cpp",
+    "category": null,
+    "description": "Out of scope: 10 = x; (case #1)"
+  },
+  {
+    "file": "oos_else_without_if_02.cpp",
+    "category": null,
+    "description": "Out of scope: 'else' without previous 'if' (case #2)"
+  },
+  {
+    "file": "oos_break_not_in_loop_03.cpp",
+    "category": null,
+    "description": "Out of scope: break statement outside loop (case #3)"
+  },
+  {
+    "file": "oos_continue_not_in_loop_04.cpp",
+    "category": null,
+    "description": "Out of scope: continue outside loop (case #4)"
+  },
+  {
+    "file": "oos_private_member_access_05.cpp",
+    "category": null,
+    "description": "Out of scope: calling private member (case #5)"
+  },
+  {
+    "file": "oos_operator_no_match_06.cpp",
+    "category": null,
+    "description": "Out of scope: no match for operator<< with struct (case #6)"
+  },
+  {
+    "file": "oos_array_subscript_invalid_07.cpp",
+    "category": null,
+    "description": "Out of scope: subscripted value is not an array (case #7)"
+  },
+  {
+    "file": "oos_case_label_not_in_switch_08.cpp",
+    "category": null,
+    "description": "Out of scope: case outside switch (case #8)"
+  },
+  {
+    "file": "oos_lvalue_required_09.cpp",
+    "category": null,
+    "description": "Out of scope: 10 = x; (case #9)"
+  },
+  {
+    "file": "oos_else_without_if_10.cpp",
+    "category": null,
+    "description": "Out of scope: 'else' without previous 'if' (case #10)"
+  },
+  {
+    "file": "oos_break_not_in_loop_11.cpp",
+    "category": null,
+    "description": "Out of scope: break statement outside loop (case #11)"
+  },
+  {
+    "file": "oos_continue_not_in_loop_12.cpp",
+    "category": null,
+    "description": "Out of scope: continue outside loop (case #12)"
+  },
+  {
+    "file": "oos_private_member_access_13.cpp",
+    "category": null,
+    "description": "Out of scope: calling private member (case #13)"
+  },
+  {
+    "file": "oos_operator_no_match_14.cpp",
+    "category": null,
+    "description": "Out of scope: no match for operator<< with struct (case #14)"
+  },
+  {
+    "file": "oos_array_subscript_invalid_15.cpp",
+    "category": null,
+    "description": "Out of scope: subscripted value is not an array (case #15)"
+  },
+  {
+    "file": "oos_case_label_not_in_switch_16.cpp",
+    "category": null,
+    "description": "Out of scope: case outside switch (case #16)"
+  },
+  {
+    "file": "oos_lvalue_required_17.cpp",
+    "category": null,
+    "description": "Out of scope: 10 = x; (case #17)"
+  },
+  {
+    "file": "oos_else_without_if_18.cpp",
+    "category": null,
+    "description": "Out of scope: 'else' without previous 'if' (case #18)"
+  },
+  {
+    "file": "oos_break_not_in_loop_19.cpp",
+    "category": null,
+    "description": "Out of scope: break statement outside loop (case #19)"
+  },
+  {
+    "file": "oos_continue_not_in_loop_20.cpp",
+    "category": null,
+    "description": "Out of scope: continue outside loop (case #20)"
+  },
+  {
+    "file": "oos_private_member_access_21.cpp",
+    "category": null,
+    "description": "Out of scope: calling private member (case #21)"
+  },
+  {
+    "file": "oos_operator_no_match_22.cpp",
+    "category": null,
+    "description": "Out of scope: no match for operator<< with struct (case #22)"
+  },
+  {
+    "file": "oos_array_subscript_invalid_23.cpp",
+    "category": null,
+    "description": "Out of scope: subscripted value is not an array (case #23)"
+  },
+  {
+    "file": "oos_case_label_not_in_switch_24.cpp",
+    "category": null,
+    "description": "Out of scope: case outside switch (case #24)"
+  },
+  {
+    "file": "oos_lvalue_required_25.cpp",
+    "category": null,
+    "description": "Out of scope: 10 = x; (case #25)"
+  },
+  {
+    "file": "oos_else_without_if_26.cpp",
+    "category": null,
+    "description": "Out of scope: 'else' without previous 'if' (case #26)"
+  },
+  {
+    "file": "oos_break_not_in_loop_27.cpp",
+    "category": null,
+    "description": "Out of scope: break statement outside loop (case #27)"
+  },
+  {
+    "file": "oos_continue_not_in_loop_28.cpp",
+    "category": null,
+    "description": "Out of scope: continue outside loop (case #28)"
+  },
+  {
+    "file": "oos_private_member_access_29.cpp",
+    "category": null,
+    "description": "Out of scope: calling private member (case #29)"
+  },
+  {
+    "file": "oos_operator_no_match_30.cpp",
+    "category": null,
+    "description": "Out of scope: no match for operator<< with struct (case #30)"
+  },
+  {
+    "file": "oos_array_subscript_invalid_31.cpp",
+    "category": null,
+    "description": "Out of scope: subscripted value is not an array (case #31)"
+  },
+  {
+    "file": "oos_case_label_not_in_switch_32.cpp",
+    "category": null,
+    "description": "Out of scope: case outside switch (case #32)"
+  },
+  {
+    "file": "oos_lvalue_required_33.cpp",
+    "category": null,
+    "description": "Out of scope: 10 = x; (case #33)"
+  },
+  {
+    "file": "oos_else_without_if_34.cpp",
+    "category": null,
+    "description": "Out of scope: 'else' without previous 'if' (case #34)"
+  },
+  {
+    "file": "oos_break_not_in_loop_35.cpp",
+    "category": null,
+    "description": "Out of scope: break statement outside loop (case #35)"
+  },
+  {
+    "file": "oos_continue_not_in_loop_36.cpp",
+    "category": null,
+    "description": "Out of scope: continue outside loop (case #36)"
+  },
+  {
+    "file": "oos_private_member_access_37.cpp",
+    "category": null,
+    "description": "Out of scope: calling private member (case #37)"
+  },
+  {
+    "file": "oos_operator_no_match_38.cpp",
+    "category": null,
+    "description": "Out of scope: no match for operator<< with struct (case #38)"
+  },
+  {
+    "file": "oos_array_subscript_invalid_39.cpp",
+    "category": null,
+    "description": "Out of scope: subscripted value is not an array (case #39)"
+  },
+  {
+    "file": "oos_case_label_not_in_switch_40.cpp",
+    "category": null,
+    "description": "Out of scope: case outside switch (case #40)"
+  }
+]

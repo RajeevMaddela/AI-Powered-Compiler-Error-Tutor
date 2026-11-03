@@ -8,7 +8,7 @@ from fastapi.exceptions import RequestValidationError
 from backend.app.core.config import settings
 from backend.app.core.database import engine, Base
 from backend.app.models import models
-from backend.app.api import auth, analyze, history, account, health
+from backend.app.api import auth, analyze, history, account, health, feedback, consent, analytics
 
 # Configure logging
 logging.basicConfig(
@@ -48,12 +48,19 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         content={"detail": "; ".join(errors)}
     )
 
-# Structured request logger middleware (NEVER logs source code or sensitive bodies)
+# Security and request logging middleware
 @app.middleware("http")
-async def log_requests(request: Request, call_next):
+async def security_and_logging_middleware(request: Request, call_next):
     start_time = time.time()
     response = await call_next(request)
     duration = (time.time() - start_time) * 1000
+
+    # Production Security Headers
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["X-XSS-Protection"] = "1; mode=block"
+    response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+
     logger.info(
         "%s %s -> %d (%.1f ms)",
         request.method,
@@ -69,6 +76,9 @@ app.include_router(analyze.router)
 app.include_router(history.router)
 app.include_router(account.router)
 app.include_router(health.router)
+app.include_router(feedback.router)
+app.include_router(consent.router)
+app.include_router(analytics.router)
 
 @app.get("/")
 def root():

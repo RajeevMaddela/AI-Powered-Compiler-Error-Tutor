@@ -7,6 +7,7 @@ from fastapi import HTTPException, status
 import docker
 from docker.errors import DockerException, APIError
 from backend.app.core.config import settings
+from backend.app.compiler.constants import COMPILER_FLAGS, COMPILER_ENV
 
 # Concurrency semaphore: max concurrent sandboxes
 _sandbox_semaphore = threading.BoundedSemaphore(settings.SANDBOX_MAX_CONCURRENT)
@@ -69,18 +70,7 @@ def run_code_in_sandbox(code: str) -> SandboxResult:
             try:
                 container = client.containers.create(
                     image=settings.DOCKER_SANDBOX_IMAGE,
-                    command=[
-                        "g++",
-                        "-std=c++17",
-                        "-Wall",
-                        "-Wextra",
-                        "-fno-diagnostics-show-caret",
-                        "-fmessage-length=0",
-                        "-fdiagnostics-color=never",
-                        "/workspace/main.cpp",
-                        "-o",
-                        "/tmp/a.out"
-                    ],
+                    command=COMPILER_FLAGS,
                     network_mode="none",
                     mem_limit="256m",
                     memswap_limit="256m",
@@ -96,7 +86,7 @@ def run_code_in_sandbox(code: str) -> SandboxResult:
                     user="10001",
                     cap_drop=["ALL"],
                     security_opt=["no-new-privileges:true"],
-                    environment={"LC_ALL": "C", "LANG": "C"}
+                    environment=COMPILER_ENV
                 )
 
                 container.start()

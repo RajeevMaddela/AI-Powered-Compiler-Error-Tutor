@@ -1,0 +1,602 @@
+[
+  {
+    "file": "human_missing_semicolon_01.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #1"
+  },
+  {
+    "file": "human_missing_semicolon_02.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #2"
+  },
+  {
+    "file": "human_missing_semicolon_03.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #3"
+  },
+  {
+    "file": "human_missing_semicolon_04.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #4"
+  },
+  {
+    "file": "human_missing_semicolon_05.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #5"
+  },
+  {
+    "file": "human_missing_semicolon_06.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #6"
+  },
+  {
+    "file": "human_missing_semicolon_07.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #7"
+  },
+  {
+    "file": "human_missing_semicolon_08.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #8"
+  },
+  {
+    "file": "human_missing_semicolon_09.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #9"
+  },
+  {
+    "file": "human_missing_semicolon_10.cpp",
+    "expected_category": "MISSING_SEMICOLON",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_SEMICOLON variant #10"
+  },
+  {
+    "file": "human_undeclared_identifier_01.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #1"
+  },
+  {
+    "file": "human_undeclared_identifier_02.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #2"
+  },
+  {
+    "file": "human_undeclared_identifier_03.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #3"
+  },
+  {
+    "file": "human_undeclared_identifier_04.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #4"
+  },
+  {
+    "file": "human_undeclared_identifier_05.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #5"
+  },
+  {
+    "file": "human_undeclared_identifier_06.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #6"
+  },
+  {
+    "file": "human_undeclared_identifier_07.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #7"
+  },
+  {
+    "file": "human_undeclared_identifier_08.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #8"
+  },
+  {
+    "file": "human_undeclared_identifier_09.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #9"
+  },
+  {
+    "file": "human_undeclared_identifier_10.cpp",
+    "expected_category": "UNDECLARED_IDENTIFIER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDECLARED_IDENTIFIER variant #10"
+  },
+  {
+    "file": "human_type_mismatch_01.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #1"
+  },
+  {
+    "file": "human_type_mismatch_02.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #2"
+  },
+  {
+    "file": "human_type_mismatch_03.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #3"
+  },
+  {
+    "file": "human_type_mismatch_04.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #4"
+  },
+  {
+    "file": "human_type_mismatch_05.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #5"
+  },
+  {
+    "file": "human_type_mismatch_06.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #6"
+  },
+  {
+    "file": "human_type_mismatch_07.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #7"
+  },
+  {
+    "file": "human_type_mismatch_08.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #8"
+  },
+  {
+    "file": "human_type_mismatch_09.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #9"
+  },
+  {
+    "file": "human_type_mismatch_10.cpp",
+    "expected_category": "TYPE_MISMATCH",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating TYPE_MISMATCH variant #10"
+  },
+  {
+    "file": "human_unmatched_braces_01.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #1"
+  },
+  {
+    "file": "human_unmatched_braces_02.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #2"
+  },
+  {
+    "file": "human_unmatched_braces_03.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #3"
+  },
+  {
+    "file": "human_unmatched_braces_04.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #4"
+  },
+  {
+    "file": "human_unmatched_braces_05.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #5"
+  },
+  {
+    "file": "human_unmatched_braces_06.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #6"
+  },
+  {
+    "file": "human_unmatched_braces_07.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #7"
+  },
+  {
+    "file": "human_unmatched_braces_08.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #8"
+  },
+  {
+    "file": "human_unmatched_braces_09.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #9"
+  },
+  {
+    "file": "human_unmatched_braces_10.cpp",
+    "expected_category": "UNMATCHED_BRACES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_BRACES variant #10"
+  },
+  {
+    "file": "human_unmatched_parentheses_01.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #1"
+  },
+  {
+    "file": "human_unmatched_parentheses_02.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #2"
+  },
+  {
+    "file": "human_unmatched_parentheses_03.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #3"
+  },
+  {
+    "file": "human_unmatched_parentheses_04.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #4"
+  },
+  {
+    "file": "human_unmatched_parentheses_05.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #5"
+  },
+  {
+    "file": "human_unmatched_parentheses_06.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #6"
+  },
+  {
+    "file": "human_unmatched_parentheses_07.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #7"
+  },
+  {
+    "file": "human_unmatched_parentheses_08.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #8"
+  },
+  {
+    "file": "human_unmatched_parentheses_09.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #9"
+  },
+  {
+    "file": "human_unmatched_parentheses_10.cpp",
+    "expected_category": "UNMATCHED_PARENTHESES",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNMATCHED_PARENTHESES variant #10"
+  },
+  {
+    "file": "human_missing_return_01.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #1"
+  },
+  {
+    "file": "human_missing_return_02.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #2"
+  },
+  {
+    "file": "human_missing_return_03.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #3"
+  },
+  {
+    "file": "human_missing_return_04.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #4"
+  },
+  {
+    "file": "human_missing_return_05.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #5"
+  },
+  {
+    "file": "human_missing_return_06.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #6"
+  },
+  {
+    "file": "human_missing_return_07.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #7"
+  },
+  {
+    "file": "human_missing_return_08.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #8"
+  },
+  {
+    "file": "human_missing_return_09.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #9"
+  },
+  {
+    "file": "human_missing_return_10.cpp",
+    "expected_category": "MISSING_RETURN",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_RETURN variant #10"
+  },
+  {
+    "file": "human_invalid_declaration_01.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #1"
+  },
+  {
+    "file": "human_invalid_declaration_02.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #2"
+  },
+  {
+    "file": "human_invalid_declaration_03.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #3"
+  },
+  {
+    "file": "human_invalid_declaration_04.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #4"
+  },
+  {
+    "file": "human_invalid_declaration_05.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #5"
+  },
+  {
+    "file": "human_invalid_declaration_06.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #6"
+  },
+  {
+    "file": "human_invalid_declaration_07.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #7"
+  },
+  {
+    "file": "human_invalid_declaration_08.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #8"
+  },
+  {
+    "file": "human_invalid_declaration_09.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #9"
+  },
+  {
+    "file": "human_invalid_declaration_10.cpp",
+    "expected_category": "INVALID_DECLARATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating INVALID_DECLARATION variant #10"
+  },
+  {
+    "file": "human_missing_header_01.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #1"
+  },
+  {
+    "file": "human_missing_header_02.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #2"
+  },
+  {
+    "file": "human_missing_header_03.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #3"
+  },
+  {
+    "file": "human_missing_header_04.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #4"
+  },
+  {
+    "file": "human_missing_header_05.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #5"
+  },
+  {
+    "file": "human_missing_header_06.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #6"
+  },
+  {
+    "file": "human_missing_header_07.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #7"
+  },
+  {
+    "file": "human_missing_header_08.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #8"
+  },
+  {
+    "file": "human_missing_header_09.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #9"
+  },
+  {
+    "file": "human_missing_header_10.cpp",
+    "expected_category": "MISSING_HEADER",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_HEADER variant #10"
+  },
+  {
+    "file": "human_missing_namespace_01.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #1"
+  },
+  {
+    "file": "human_missing_namespace_02.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #2"
+  },
+  {
+    "file": "human_missing_namespace_03.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #3"
+  },
+  {
+    "file": "human_missing_namespace_04.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #4"
+  },
+  {
+    "file": "human_missing_namespace_05.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #5"
+  },
+  {
+    "file": "human_missing_namespace_06.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #6"
+  },
+  {
+    "file": "human_missing_namespace_07.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #7"
+  },
+  {
+    "file": "human_missing_namespace_08.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #8"
+  },
+  {
+    "file": "human_missing_namespace_09.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #9"
+  },
+  {
+    "file": "human_missing_namespace_10.cpp",
+    "expected_category": "MISSING_NAMESPACE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating MISSING_NAMESPACE variant #10"
+  },
+  {
+    "file": "human_undefined_reference_01.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #1"
+  },
+  {
+    "file": "human_undefined_reference_02.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #2"
+  },
+  {
+    "file": "human_undefined_reference_03.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #3"
+  },
+  {
+    "file": "human_undefined_reference_04.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #4"
+  },
+  {
+    "file": "human_undefined_reference_05.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #5"
+  },
+  {
+    "file": "human_undefined_reference_06.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #6"
+  },
+  {
+    "file": "human_undefined_reference_07.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #7"
+  },
+  {
+    "file": "human_undefined_reference_08.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #8"
+  },
+  {
+    "file": "human_undefined_reference_09.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #9"
+  },
+  {
+    "file": "human_undefined_reference_10.cpp",
+    "expected_category": "UNDEFINED_REFERENCE",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating UNDEFINED_REFERENCE variant #10"
+  },
+  {
+    "file": "human_wrong_arguments_01.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #1"
+  },
+  {
+    "file": "human_wrong_arguments_02.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #2"
+  },
+  {
+    "file": "human_wrong_arguments_03.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #3"
+  },
+  {
+    "file": "human_wrong_arguments_04.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #4"
+  },
+  {
+    "file": "human_wrong_arguments_05.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #5"
+  },
+  {
+    "file": "human_wrong_arguments_06.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #6"
+  },
+  {
+    "file": "human_wrong_arguments_07.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #7"
+  },
+  {
+    "file": "human_wrong_arguments_08.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #8"
+  },
+  {
+    "file": "human_wrong_arguments_09.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #9"
+  },
+  {
+    "file": "human_wrong_arguments_10.cpp",
+    "expected_category": "WRONG_ARGUMENTS",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating WRONG_ARGUMENTS variant #10"
+  },
+  {
+    "file": "human_const_violation_01.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #1"
+  },
+  {
+    "file": "human_const_violation_02.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #2"
+  },
+  {
+    "file": "human_const_violation_03.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #3"
+  },
+  {
+    "file": "human_const_violation_04.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #4"
+  },
+  {
+    "file": "human_const_violation_05.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #5"
+  },
+  {
+    "file": "human_const_violation_06.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #6"
+  },
+  {
+    "file": "human_const_violation_07.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #7"
+  },
+  {
+    "file": "human_const_violation_08.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #8"
+  },
+  {
+    "file": "human_const_violation_09.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #9"
+  },
+  {
+    "file": "human_const_violation_10.cpp",
+    "expected_category": "CONST_VIOLATION",
+    "description_of_mistake": "Hand-crafted beginner mistake demonstrating CONST_VIOLATION variant #10"
+  }
+]

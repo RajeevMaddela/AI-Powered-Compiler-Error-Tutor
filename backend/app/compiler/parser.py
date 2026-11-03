@@ -25,7 +25,7 @@ class ParsedDiagnostic:
 # /workspace/main.cpp:5:10: fatal error: non_existent.h: No such file or directory
 # /workspace/main.cpp:8:5: note: 'std::cout' is defined in header '<iostream>'
 DIAG_PATTERN = re.compile(
-    r"^(?:/workspace/)?(?:[^\n:]+):(\d+):(?:(\d+):)?\s*(fatal error|error|warning|note):\s*(.+)$",
+    r"^(?:(?:[a-zA-Z]:)?[^:\n]+):(\d+):(?:(\d+):)?\s*(fatal error|error|warning|note):\s*(.+)$",
     re.IGNORECASE
 )
 
@@ -34,7 +34,7 @@ DIAG_PATTERN = re.compile(
 # /workspace/main.cpp:4: undefined reference to 'foo()'
 # /tmp/ccXX.o: in function 'main': /workspace/main.cpp:4: undefined reference to 'bar()'
 LINKER_PATTERN = re.compile(
-    r"(?:/workspace/)?(?:[^\n:]+):(\d+):(?:\([^\)]+\):)?\s*(undefined reference to .+)$",
+    r"(?:(?:[a-zA-Z]:)?[^:\n]+):(\d+):(?:\([^\)]+\):)?\s*(undefined reference to .+)$",
     re.IGNORECASE
 )
 

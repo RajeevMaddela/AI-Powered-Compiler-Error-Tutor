@@ -1,0 +1,1938 @@
+[
+  {
+    "seed_id": "seed_0001",
+    "file": "seed_0001.cpp",
+    "topic": "temperature_conversion",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "iomanip"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0002",
+    "file": "seed_0002.cpp",
+    "topic": "geometry_circle",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0003",
+    "file": "seed_0003.cpp",
+    "topic": "factorial_iterative",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0004",
+    "file": "seed_0004.cpp",
+    "topic": "fibonacci_vector",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0005",
+    "file": "seed_0005.cpp",
+    "topic": "string_reversal",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_loop"
+    ]
+  },
+  {
+    "seed_id": "seed_0006",
+    "file": "seed_0006.cpp",
+    "topic": "bank_account_class",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_class",
+      "has_const",
+      "uses_string"
+    ]
+  },
+  {
+    "seed_id": "seed_0007",
+    "file": "seed_0007.cpp",
+    "topic": "student_grades",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0008",
+    "file": "seed_0008.cpp",
+    "topic": "prime_checker",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0009",
+    "file": "seed_0009.cpp",
+    "topic": "vowel_counter",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "string",
+      "cctype"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_loop"
+    ]
+  },
+  {
+    "seed_id": "seed_0010",
+    "file": "seed_0010.cpp",
+    "topic": "word_frequency",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "string",
+      "map",
+      "vector"
+    ],
+    "features": [
+      "uses_map",
+      "uses_vector",
+      "uses_string",
+      "has_loop"
+    ]
+  },
+  {
+    "seed_id": "seed_0011",
+    "file": "seed_0011.cpp",
+    "topic": "gcd_lcm",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype"
+    ]
+  },
+  {
+    "seed_id": "seed_0012",
+    "file": "seed_0012.cpp",
+    "topic": "rectangle_class",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_class",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0013",
+    "file": "seed_0013.cpp",
+    "topic": "bubble_sort",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_loop"
+    ]
+  },
+  {
+    "seed_id": "seed_0014",
+    "file": "seed_0014.cpp",
+    "topic": "binary_search",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0015",
+    "file": "seed_0015.cpp",
+    "topic": "complex_number_struct",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_struct",
+      "has_helper_function",
+      "has_prototype"
+    ]
+  },
+  {
+    "seed_id": "seed_0016",
+    "file": "seed_0016.cpp",
+    "topic": "linear_search",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0017",
+    "file": "seed_0017.cpp",
+    "topic": "matrix_sum",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_loop"
+    ]
+  },
+  {
+    "seed_id": "seed_0018",
+    "file": "seed_0018.cpp",
+    "topic": "palindrome_string",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_loop"
+    ]
+  },
+  {
+    "seed_id": "seed_0019",
+    "file": "seed_0019.cpp",
+    "topic": "power_function",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0020",
+    "file": "seed_0020.cpp",
+    "topic": "vector_min_max",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_loop"
+    ]
+  },
+  {
+    "seed_id": "seed_0021",
+    "file": "seed_0021.cpp",
+    "topic": "array_average_21",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0022",
+    "file": "seed_0022.cpp",
+    "topic": "digit_sum_22",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0023",
+    "file": "seed_0023.cpp",
+    "topic": "count_even_odd_23",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0024",
+    "file": "seed_0024.cpp",
+    "topic": "celsius_kelvin_24",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0025",
+    "file": "seed_0025.cpp",
+    "topic": "cart_total_25",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0026",
+    "file": "seed_0026.cpp",
+    "topic": "string_length_manual_26",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0027",
+    "file": "seed_0027.cpp",
+    "topic": "leap_year_check_27",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0028",
+    "file": "seed_0028.cpp",
+    "topic": "quadratic_discriminant_28",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0029",
+    "file": "seed_0029.cpp",
+    "topic": "reverse_digits_29",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0030",
+    "file": "seed_0030.cpp",
+    "topic": "swap_by_reference_30",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0031",
+    "file": "seed_0031.cpp",
+    "topic": "find_median_31",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector",
+      "algorithm"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0032",
+    "file": "seed_0032.cpp",
+    "topic": "is_sorted_check_32",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0033",
+    "file": "seed_0033.cpp",
+    "topic": "multiplication_table_33",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0034",
+    "file": "seed_0034.cpp",
+    "topic": "cube_calculator_34",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0035",
+    "file": "seed_0035.cpp",
+    "topic": "clamp_value_35",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0036",
+    "file": "seed_0036.cpp",
+    "topic": "array_average_36",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0037",
+    "file": "seed_0037.cpp",
+    "topic": "digit_sum_37",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0038",
+    "file": "seed_0038.cpp",
+    "topic": "count_even_odd_38",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0039",
+    "file": "seed_0039.cpp",
+    "topic": "celsius_kelvin_39",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0040",
+    "file": "seed_0040.cpp",
+    "topic": "cart_total_40",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0041",
+    "file": "seed_0041.cpp",
+    "topic": "string_length_manual_41",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0042",
+    "file": "seed_0042.cpp",
+    "topic": "leap_year_check_42",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0043",
+    "file": "seed_0043.cpp",
+    "topic": "quadratic_discriminant_43",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0044",
+    "file": "seed_0044.cpp",
+    "topic": "reverse_digits_44",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0045",
+    "file": "seed_0045.cpp",
+    "topic": "swap_by_reference_45",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0046",
+    "file": "seed_0046.cpp",
+    "topic": "find_median_46",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector",
+      "algorithm"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0047",
+    "file": "seed_0047.cpp",
+    "topic": "is_sorted_check_47",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0048",
+    "file": "seed_0048.cpp",
+    "topic": "multiplication_table_48",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0049",
+    "file": "seed_0049.cpp",
+    "topic": "cube_calculator_49",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0050",
+    "file": "seed_0050.cpp",
+    "topic": "clamp_value_50",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0051",
+    "file": "seed_0051.cpp",
+    "topic": "array_average_51",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0052",
+    "file": "seed_0052.cpp",
+    "topic": "digit_sum_52",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0053",
+    "file": "seed_0053.cpp",
+    "topic": "count_even_odd_53",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0054",
+    "file": "seed_0054.cpp",
+    "topic": "celsius_kelvin_54",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0055",
+    "file": "seed_0055.cpp",
+    "topic": "cart_total_55",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0056",
+    "file": "seed_0056.cpp",
+    "topic": "string_length_manual_56",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0057",
+    "file": "seed_0057.cpp",
+    "topic": "leap_year_check_57",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0058",
+    "file": "seed_0058.cpp",
+    "topic": "quadratic_discriminant_58",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0059",
+    "file": "seed_0059.cpp",
+    "topic": "reverse_digits_59",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0060",
+    "file": "seed_0060.cpp",
+    "topic": "swap_by_reference_60",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0061",
+    "file": "seed_0061.cpp",
+    "topic": "find_median_61",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector",
+      "algorithm"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0062",
+    "file": "seed_0062.cpp",
+    "topic": "is_sorted_check_62",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0063",
+    "file": "seed_0063.cpp",
+    "topic": "multiplication_table_63",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0064",
+    "file": "seed_0064.cpp",
+    "topic": "cube_calculator_64",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0065",
+    "file": "seed_0065.cpp",
+    "topic": "clamp_value_65",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0066",
+    "file": "seed_0066.cpp",
+    "topic": "array_average_66",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0067",
+    "file": "seed_0067.cpp",
+    "topic": "digit_sum_67",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0068",
+    "file": "seed_0068.cpp",
+    "topic": "count_even_odd_68",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0069",
+    "file": "seed_0069.cpp",
+    "topic": "celsius_kelvin_69",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0070",
+    "file": "seed_0070.cpp",
+    "topic": "cart_total_70",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0071",
+    "file": "seed_0071.cpp",
+    "topic": "string_length_manual_71",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0072",
+    "file": "seed_0072.cpp",
+    "topic": "leap_year_check_72",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0073",
+    "file": "seed_0073.cpp",
+    "topic": "quadratic_discriminant_73",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0074",
+    "file": "seed_0074.cpp",
+    "topic": "reverse_digits_74",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0075",
+    "file": "seed_0075.cpp",
+    "topic": "swap_by_reference_75",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0076",
+    "file": "seed_0076.cpp",
+    "topic": "find_median_76",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector",
+      "algorithm"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0077",
+    "file": "seed_0077.cpp",
+    "topic": "is_sorted_check_77",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0078",
+    "file": "seed_0078.cpp",
+    "topic": "multiplication_table_78",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0079",
+    "file": "seed_0079.cpp",
+    "topic": "cube_calculator_79",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0080",
+    "file": "seed_0080.cpp",
+    "topic": "clamp_value_80",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0081",
+    "file": "seed_0081.cpp",
+    "topic": "array_average_81",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0082",
+    "file": "seed_0082.cpp",
+    "topic": "digit_sum_82",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0083",
+    "file": "seed_0083.cpp",
+    "topic": "count_even_odd_83",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0084",
+    "file": "seed_0084.cpp",
+    "topic": "celsius_kelvin_84",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0085",
+    "file": "seed_0085.cpp",
+    "topic": "cart_total_85",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0086",
+    "file": "seed_0086.cpp",
+    "topic": "string_length_manual_86",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0087",
+    "file": "seed_0087.cpp",
+    "topic": "leap_year_check_87",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0088",
+    "file": "seed_0088.cpp",
+    "topic": "quadratic_discriminant_88",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0089",
+    "file": "seed_0089.cpp",
+    "topic": "reverse_digits_89",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0090",
+    "file": "seed_0090.cpp",
+    "topic": "swap_by_reference_90",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0091",
+    "file": "seed_0091.cpp",
+    "topic": "find_median_91",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector",
+      "algorithm"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0092",
+    "file": "seed_0092.cpp",
+    "topic": "is_sorted_check_92",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0093",
+    "file": "seed_0093.cpp",
+    "topic": "multiplication_table_93",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0094",
+    "file": "seed_0094.cpp",
+    "topic": "cube_calculator_94",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0095",
+    "file": "seed_0095.cpp",
+    "topic": "clamp_value_95",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0096",
+    "file": "seed_0096.cpp",
+    "topic": "array_average_96",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0097",
+    "file": "seed_0097.cpp",
+    "topic": "digit_sum_97",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0098",
+    "file": "seed_0098.cpp",
+    "topic": "count_even_odd_98",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0099",
+    "file": "seed_0099.cpp",
+    "topic": "celsius_kelvin_99",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0100",
+    "file": "seed_0100.cpp",
+    "topic": "cart_total_100",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0101",
+    "file": "seed_0101.cpp",
+    "topic": "string_length_manual_101",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0102",
+    "file": "seed_0102.cpp",
+    "topic": "leap_year_check_102",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0103",
+    "file": "seed_0103.cpp",
+    "topic": "quadratic_discriminant_103",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0104",
+    "file": "seed_0104.cpp",
+    "topic": "reverse_digits_104",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0105",
+    "file": "seed_0105.cpp",
+    "topic": "swap_by_reference_105",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0106",
+    "file": "seed_0106.cpp",
+    "topic": "find_median_106",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector",
+      "algorithm"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0107",
+    "file": "seed_0107.cpp",
+    "topic": "is_sorted_check_107",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0108",
+    "file": "seed_0108.cpp",
+    "topic": "multiplication_table_108",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0109",
+    "file": "seed_0109.cpp",
+    "topic": "cube_calculator_109",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0110",
+    "file": "seed_0110.cpp",
+    "topic": "clamp_value_110",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0111",
+    "file": "seed_0111.cpp",
+    "topic": "array_average_111",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0112",
+    "file": "seed_0112.cpp",
+    "topic": "digit_sum_112",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0113",
+    "file": "seed_0113.cpp",
+    "topic": "count_even_odd_113",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0114",
+    "file": "seed_0114.cpp",
+    "topic": "celsius_kelvin_114",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0115",
+    "file": "seed_0115.cpp",
+    "topic": "cart_total_115",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0116",
+    "file": "seed_0116.cpp",
+    "topic": "string_length_manual_116",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "string"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_string",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0117",
+    "file": "seed_0117.cpp",
+    "topic": "leap_year_check_117",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0118",
+    "file": "seed_0118.cpp",
+    "topic": "quadratic_discriminant_118",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0119",
+    "file": "seed_0119.cpp",
+    "topic": "reverse_digits_119",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0120",
+    "file": "seed_0120.cpp",
+    "topic": "swap_by_reference_120",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0121",
+    "file": "seed_0121.cpp",
+    "topic": "find_median_121",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream",
+      "vector",
+      "algorithm"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0122",
+    "file": "seed_0122.cpp",
+    "topic": "is_sorted_check_122",
+    "style": "std_prefix",
+    "headers": [
+      "iostream",
+      "vector"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "uses_vector",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0123",
+    "file": "seed_0123.cpp",
+    "topic": "multiplication_table_123",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_loop",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0124",
+    "file": "seed_0124.cpp",
+    "topic": "cube_calculator_124",
+    "style": "std_prefix",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_const",
+      "has_const"
+    ]
+  },
+  {
+    "seed_id": "seed_0125",
+    "file": "seed_0125.cpp",
+    "topic": "clamp_value_125",
+    "style": "using_namespace_std",
+    "headers": [
+      "iostream"
+    ],
+    "features": [
+      "has_helper_function",
+      "has_prototype",
+      "has_helper_function",
+      "has_const"
+    ]
+  }
+]

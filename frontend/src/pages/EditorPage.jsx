@@ -11,8 +11,11 @@ import {
   ChevronDown,
   ChevronUp,
   Loader2,
-  Terminal
+  Terminal,
+  Sparkles,
+  BookOpen
 } from 'lucide-react';
+import { FeedbackWidget } from '../components/FeedbackWidget';
 import './EditorPage.css';
 
 const DEFAULT_SAMPLE_CODE = `// Sample C++ Program with Compiler Diagnostics
@@ -316,6 +319,13 @@ export const EditorPage = () => {
                             {diag.severity.toUpperCase()}
                           </span>
 
+                          {diag.category && diag.category !== 'ABSTAINED' && (
+                            <span className="badge badge-category" title="Machine Learning Classification">
+                              <Sparkles size={11} className="badge-icon" />
+                              {diag.category.replace(/_/g, ' ')}
+                            </span>
+                          )}
+
                           {diag.is_primary && (
                             <span className="badge badge-primary-indicator" title="First syntax root cause">
                               Primary Error
@@ -329,11 +339,23 @@ export const EditorPage = () => {
                           )}
                         </div>
 
-                        {diag.line && (
-                          <span className="line-coord-badge">
-                            Line {diag.line}{diag.column ? `:${diag.column}` : ''}
-                          </span>
-                        )}
+                        <div className="meta-right">
+                          {diag.abstained ? (
+                            <span className="badge badge-abstained" title="Prediction confidence below safe threshold">
+                              Abstained
+                            </span>
+                          ) : diag.confidence ? (
+                            <span className="badge badge-confidence" title={`Calibrated Confidence: ${(diag.confidence * 100).toFixed(0)}%`}>
+                              {(diag.confidence * 100).toFixed(0)}% Match
+                            </span>
+                          ) : null}
+
+                          {diag.line && (
+                            <span className="line-coord-badge">
+                              Line {diag.line}{diag.column ? `:${diag.column}` : ''}
+                            </span>
+                          )}
+                        </div>
                       </div>
 
                       <div className="card-message">
@@ -349,6 +371,44 @@ export const EditorPage = () => {
                             <p key={nIdx} className="note-text">{n}</p>
                           ))}
                         </div>
+                      )}
+
+                      {diag.explanation && (
+                        <div className="card-explanation-block">
+                          <div className="explanation-header">
+                            <BookOpen size={14} className="explanation-icon" />
+                            <span className="explanation-title">{diag.explanation.title}</span>
+                          </div>
+                          <p className="explanation-text">{diag.explanation.what_happened}</p>
+
+                          {diag.explanation.how_to_fix && diag.explanation.how_to_fix.length > 0 && (
+                            <div className="fix-list">
+                              <span className="fix-list-title">Actionable Fix:</span>
+                              <ul>
+                                {diag.explanation.how_to_fix.map((step, sIdx) => (
+                                  <li key={sIdx}>{step}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                          {diag.explanation.example_wrong && diag.explanation.example_fixed && (
+                            <div className="example-comparison">
+                              <div className="example-box example-wrong">
+                                <span className="example-label label-wrong">Problematic</span>
+                                <pre><code>{diag.explanation.example_wrong}</code></pre>
+                              </div>
+                              <div className="example-box example-fixed">
+                                <span className="example-label label-fixed">Corrected</span>
+                                <pre><code>{diag.explanation.example_fixed}</code></pre>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {diag.id && (
+                        <FeedbackWidget errorId={diag.id} initialCategory={diag.category} />
                       )}
                     </div>
                   );

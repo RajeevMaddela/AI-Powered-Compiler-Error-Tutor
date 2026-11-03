@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
-import { Sun, Moon, Terminal, User as UserIcon, LogOut } from 'lucide-react';
+import { Sun, Moon, Terminal, User as UserIcon, LogOut, Settings as SettingsIcon, BarChart2 } from 'lucide-react';
 import './Header.css';
 
 export const Header = () => {
@@ -37,6 +37,12 @@ export const Header = () => {
             >
               History
             </Link>
+            <Link
+              to="/dashboard"
+              className={`nav-link ${location.pathname === '/dashboard' ? 'active' : ''}`}
+            >
+              Dashboard
+            </Link>
           </nav>
         )}
 
@@ -52,10 +58,11 @@ export const Header = () => {
 
           {user ? (
             <div className="user-profile">
-              <span className="user-email" title={user.email}>
+              <Link to="/settings" className="user-email user-settings-link" title="Account Settings & Privacy">
                 <UserIcon size={14} className="user-icon" />
-                {user.name || user.email.split('@')[0]}
-              </span>
+                <span>{user.name || user.email.split('@')[0]}</span>
+                <SettingsIcon size={13} style={{ marginLeft: '4px', opacity: 0.7 }} />
+              </Link>
               <button onClick={logout} className="btn-logout" title="Sign out">
                 <LogOut size={15} />
                 <span>Sign out</span>

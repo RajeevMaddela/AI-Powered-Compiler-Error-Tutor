@@ -1,0 +1,135 @@
+.feedback-widget {
+  margin-top: var(--space-3);
+  padding-top: var(--space-2);
+  border-top: 1px dashed var(--border-color);
+  font-size: var(--font-xs);
+}
+
+.feedback-prompt-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.feedback-label {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.feedback-buttons {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.feedback-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  font-size: var(--font-xs);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.feedback-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+  border-color: var(--text-muted);
+}
+
+.btn-helpful:hover {
+  color: var(--accent-success);
+  border-color: var(--accent-success);
+}
+
+.btn-not-helpful:hover {
+  color: var(--accent-error);
+  border-color: var(--accent-error);
+}
+
+.correction-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  background: var(--bg-primary);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+}
+
+.correction-title {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.correction-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.category-dropdown {
+  flex: 1;
+  min-width: 180px;
+  padding: 4px 8px;
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-xs);
+  font-family: inherit;
+}
+
+.category-dropdown:focus {
+  outline: none;
+  border-color: var(--brand-accent);
+}
+
+.btn-submit-correction {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: var(--brand-accent);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-xs);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-submit-correction:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-cancel-correction {
+  padding: 4px 8px;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-xs);
+  cursor: pointer;
+}
+
+.btn-cancel-correction:hover {
+  color: var(--text-secondary);
+}
+
+.feedback-submitted-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent-success);
+  font-weight: 500;
+  padding: 2px 0;
+}
+

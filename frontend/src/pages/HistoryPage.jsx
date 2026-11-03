@@ -13,6 +13,7 @@ import {
   ArrowLeft,
   Terminal
 } from 'lucide-react';
+import { FeedbackWidget } from '../components/FeedbackWidget';
 import './HistoryPage.css';
 
 export const HistoryPage = () => {
@@ -231,6 +232,11 @@ export const HistoryPage = () => {
                             <span className="badge badge-error">
                               {err.severity.toUpperCase()}
                             </span>
+                            {err.category && err.category !== 'ABSTAINED' && (
+                              <span className="badge badge-category">
+                                {err.category.replace(/_/g, ' ')}
+                              </span>
+                            )}
                             {err.line && (
                               <span className="line-coord-badge">
                                 Line {err.line}{err.column ? `:${err.column}` : ''}
@@ -240,6 +246,9 @@ export const HistoryPage = () => {
                           <div className="card-message">
                             <code>{err.message}</code>
                           </div>
+                          {err.id && (
+                            <FeedbackWidget errorId={err.id} initialCategory={err.category} />
+                          )}
                         </div>
                       ))}
                     </div>

@@ -1,0 +1,562 @@
+id,seed_id,split,category,stage,severity,primary_message,primary_notes,primary_hints,has_did_you_mean,has_did_you_forget_include,is_linker_error,error_line,error_column,num_errors,num_followon,has_include_iostream,has_include_vector,has_include_string,has_include_map,has_using_namespace_std,uses_std_prefix
+mut_000054,seed_0007,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'return',,,False,False,False,17,5,1,0,True,True,False,False,True,False
+mut_000087,seed_0011,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'int'",,,False,False,False,11,5,2,1,True,False,False,False,True,False
+mut_000095,seed_0012,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' after class definition,,,False,False,False,18,1,1,0,True,False,False,False,False,True
+mut_000169,seed_0021,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'cout'",,,False,False,False,12,5,1,0,True,True,False,False,True,False
+mut_000276,seed_0033,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,13,1,1,0,True,False,False,False,True,False
+mut_000396,seed_0047,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,14,1,1,0,True,True,False,False,True,False
+mut_000414,seed_0049,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,19,5,1,0,True,False,False,False,True,False
+mut_000495,seed_0058,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'double'",,,False,False,False,8,5,2,1,True,False,False,False,False,True
+mut_000577,seed_0068,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'std'",,,False,False,False,10,5,1,0,True,True,False,False,False,True
+mut_000604,seed_0071,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,22,1,1,0,True,False,True,False,True,False
+mut_000679,seed_0079,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'return',,,False,False,False,12,5,1,0,True,False,False,False,True,False
+mut_000786,seed_0091,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'double',,,False,False,False,8,1,1,0,True,True,False,False,False,False
+mut_000851,seed_0098,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'return',,,False,False,False,11,5,1,0,True,True,False,False,False,True
+mut_000965,seed_0111,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'return',,,False,False,False,13,5,1,0,True,True,False,False,True,False
+mut_001029,seed_0118,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'double'",,,False,False,False,8,5,2,1,True,False,False,False,False,True
+mut_001069,seed_0123,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'cout'",,,False,False,False,11,5,1,0,True,False,False,False,True,False
+mut_001128,seed_0007,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'return',,,False,False,False,25,5,1,0,True,True,False,False,True,False
+mut_001147,seed_0011,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'cout'",,,False,False,False,13,5,1,0,True,False,False,False,True,False
+mut_001151,seed_0012,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,13,5,1,0,True,False,False,False,False,True
+mut_001195,seed_0021,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,22,1,1,0,True,True,False,False,True,False
+mut_001242,seed_0030,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,13,1,1,0,True,False,False,False,True,False
+mut_001263,seed_0033,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,19,5,1,0,True,False,False,False,True,False
+mut_001349,seed_0047,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'cout'",,,False,False,False,12,5,1,0,True,True,False,False,True,False
+mut_001359,seed_0049,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_001411,seed_0058,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'std'",,,False,False,False,9,5,1,0,True,False,False,False,False,True
+mut_001465,seed_0068,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,12,1,1,0,True,True,False,False,False,True
+mut_001483,seed_0071,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,14,1,1,0,True,False,True,False,True,False
+mut_001523,seed_0079,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'cout'",,,False,False,False,11,5,1,0,True,False,False,False,True,False
+mut_001584,seed_0090,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'int'",,,False,False,False,10,5,2,1,True,False,False,False,True,False
+mut_001587,seed_0091,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,21,5,1,0,True,True,False,False,True,False
+mut_001626,seed_0098,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,18,5,1,0,True,True,False,False,False,True
+mut_001694,seed_0111,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'double',,,False,False,False,7,1,1,0,True,True,False,False,False,False
+mut_001732,seed_0118,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,17,5,1,0,True,False,False,False,False,True
+mut_001749,seed_0120,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_001811,seed_0007,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'char'",,,False,False,False,15,5,2,1,True,True,False,False,True,False
+mut_001829,seed_0011,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,22,5,1,0,True,False,False,False,True,False
+mut_001835,seed_0012,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'std'",,,False,False,False,22,5,1,0,True,False,False,False,False,True
+mut_001873,seed_0020,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'maxVal',,,False,False,False,18,5,1,0,True,True,False,False,False,True
+mut_001906,seed_0030,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,19,5,1,0,True,False,False,False,True,False
+mut_002024,seed_0058,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,17,5,1,0,True,False,False,False,False,True
+mut_002068,seed_0068,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'return',,,False,False,False,11,5,1,0,True,True,False,False,False,True
+mut_002117,seed_0079,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_002174,seed_0091,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,23,1,1,0,True,True,False,False,True,False
+mut_002257,seed_0111,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,22,1,1,0,True,True,False,False,True,False
+mut_002296,seed_0120,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'int'",,,False,False,False,10,5,2,1,True,False,False,False,True,False
+mut_002312,seed_0123,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'int'",,,False,False,False,10,5,2,1,True,False,False,False,True,False
+mut_002403,seed_0021,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,14,1,1,0,True,True,False,False,True,False
+mut_002439,seed_0030,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'return',,,False,False,False,12,5,1,0,True,False,False,False,True,False
+mut_002451,seed_0033,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'int',,,False,False,False,6,1,1,0,True,False,False,False,False,False
+mut_002507,seed_0047,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'bool'",,,False,False,False,11,5,2,1,True,True,False,False,True,False
+mut_002512,seed_0049,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'return',,,False,False,False,12,5,1,0,True,False,False,False,True,False
+mut_002544,seed_0058,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,19,1,1,0,True,False,False,False,False,True
+mut_002588,seed_0068,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,18,5,1,0,True,True,False,False,False,True
+mut_002665,seed_0090,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,19,5,1,0,True,False,False,False,True,False
+mut_002739,seed_0111,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,14,1,1,0,True,True,False,False,True,False
+mut_002779,seed_0120,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before 'int',,,False,False,False,6,1,1,0,True,False,False,False,False,False
+mut_002790,seed_0123,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_002820,seed_0007,test,MISSING_SEMICOLON,SYNTAX,error,"expected ',' or ';' before 'double'",,,False,False,False,10,5,3,2,True,True,False,False,True,False
+mut_002867,seed_0020,test,MISSING_SEMICOLON,SYNTAX,error,expected ';' before '}' token,,,False,False,False,13,1,1,0,True,True,False,False,False,True
+mut_000055,seed_0007,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'average' was not declared in this scope,,,False,False,False,21,9,4,3,True,True,False,False,True,False
+mut_000088,seed_0011,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'computeGCD_typo' was not declared in this scope,,,False,False,False,28,42,1,0,True,False,False,False,True,False
+mut_000096,seed_0012,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'rect' was not declared in this scope,,,False,False,False,22,30,1,0,True,False,False,False,False,True
+mut_000160,seed_0020,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'minValX' was not declared in this scope,,,False,False,False,20,27,1,0,True,True,False,False,False,True
+mut_000170,seed_0021,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testValX' was not declared in this scope,,,False,False,False,12,30,1,0,True,True,False,False,True,False
+mut_000251,seed_0030,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testValX' was not declared in this scope,,,False,False,False,10,29,1,0,True,False,False,False,True,False
+mut_000277,seed_0033,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'printTable' was not declared in this scope,,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_000397,seed_0047,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'output' was not declared in this scope,,,False,False,False,12,52,1,0,True,True,False,False,True,False
+mut_000496,seed_0058,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'calculateDiscriminant' was not declared in this scope,,,False,False,False,8,50,1,0,True,False,False,False,False,True
+mut_000605,seed_0071,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testVal' was not declared in this scope,,,False,False,False,11,34,1,0,True,False,True,False,True,False
+mut_000680,seed_0079,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testValX' was not declared in this scope,,,False,False,False,10,38,1,0,True,False,False,False,True,False
+mut_000776,seed_0090,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,20,12,1,0,True,False,False,False,True,False
+mut_000787,seed_0091,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'outputX' was not declared in this scope,,,False,False,False,13,52,1,0,True,True,False,False,True,False
+mut_000852,seed_0098,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'outputX' was not declared in this scope,,,False,False,False,10,40,1,0,True,True,False,False,False,True
+mut_000966,seed_0111,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'computeAverage_typo' was not declared in this scope,,,False,False,False,11,48,1,0,True,True,False,False,True,False
+mut_001030,seed_0118,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'outputX' was not declared in this scope,,,False,False,False,9,40,1,0,True,False,False,False,False,True
+mut_001046,seed_0120,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'swapValues_typo' was not declared in this scope,,,False,False,False,10,41,1,0,True,False,False,False,True,False
+mut_001070,seed_0123,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,20,12,1,0,True,False,False,False,True,False
+mut_001129,seed_0007,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'grade' was not declared in this scope,,,False,False,False,16,52,1,0,True,True,False,False,True,False
+mut_001148,seed_0011,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'tempX' was not declared in this scope,,,False,False,False,21,13,1,0,True,False,False,False,True,False
+mut_001196,seed_0021,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'param' was not declared in this scope,,,False,False,False,18,9,2,1,True,True,False,False,True,False
+mut_001264,seed_0033,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,17,9,1,0,True,False,False,False,True,False
+mut_001350,seed_0047,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,21,12,1,0,True,True,False,False,True,False
+mut_001466,seed_0068,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,16,9,1,0,True,True,False,False,False,True
+mut_001484,seed_0071,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'param' was not declared in this scope,,,False,False,False,18,9,2,1,True,False,True,False,True,False
+mut_001524,seed_0079,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,17,9,1,0,True,False,False,False,True,False
+mut_001627,seed_0098,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,19,12,1,0,True,True,False,False,False,True
+mut_001695,seed_0111,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testValX' was not declared in this scope,,,False,False,False,11,36,1,0,True,True,False,False,True,False
+mut_001733,seed_0118,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'calculateDiscriminant_typo' was not declared in this scope,,,False,False,False,8,55,1,0,True,False,False,False,False,True
+mut_001750,seed_0120,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testVal' was not declared in this scope,,,False,False,False,10,29,1,0,True,False,False,False,True,False
+mut_001768,seed_0123,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,17,9,1,0,True,False,False,False,True,False
+mut_001812,seed_0007,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'gradeX' was not declared in this scope,,,False,False,False,16,52,1,0,True,True,False,False,True,False
+mut_001830,seed_0011,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'computeLCM' was not declared in this scope,,,False,False,False,12,28,1,0,True,False,False,False,True,False
+mut_001874,seed_0020,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'maxVX' was not declared in this scope,,,False,False,False,10,31,1,0,True,True,False,False,False,True
+mut_001907,seed_0030,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'param' was not declared in this scope,,,False,False,False,17,9,2,1,True,False,False,False,True,False
+mut_001979,seed_0047,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,18,9,1,0,True,True,False,False,True,False
+mut_001987,seed_0049,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'longX' was not declared in this scope,,,False,False,False,10,5,2,1,True,False,False,False,True,False
+mut_002025,seed_0058,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,18,12,1,0,True,False,False,False,False,True
+mut_002069,seed_0068,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'param' was not declared in this scope,,,False,False,False,16,9,2,1,True,True,False,False,False,True
+mut_002171,seed_0090,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'swapValues' was not declared in this scope,,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_002175,seed_0091,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testVal' was not declared in this scope,,,False,False,False,12,31,1,0,True,True,False,False,True,False
+mut_002205,seed_0098,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'output' was not declared in this scope,,,False,False,False,10,40,1,0,True,True,False,False,False,True
+mut_002258,seed_0111,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'param' was not declared in this scope,,,False,False,False,18,9,2,1,True,True,False,False,True,False
+mut_002287,seed_0118,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'paramX' was not declared in this scope,,,False,False,False,15,9,1,0,True,False,False,False,False,True
+mut_002313,seed_0123,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testValX' was not declared in this scope,,,False,False,False,10,29,1,0,True,False,False,False,True,False
+mut_002348,seed_0007,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'computeLetterGrade_typo' was not declared in this scope,,,False,False,False,15,45,1,0,True,True,False,False,True,False
+mut_002365,seed_0011,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'computeGCD_typo' was not declared in this scope,,,False,False,False,11,33,1,0,True,False,False,False,True,False
+mut_002370,seed_0012,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'widthX' was not declared in this scope,,,False,False,False,12,16,1,0,True,False,False,False,False,True
+mut_002399,seed_0020,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'maxVX' was not declared in this scope,,,False,False,False,11,50,1,0,True,True,False,False,False,True
+mut_002440,seed_0030,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testVal' was not declared in this scope,,,False,False,False,10,29,1,0,True,False,False,False,True,False
+mut_002452,seed_0033,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'printTable_typo' was not declared in this scope,,,False,False,False,10,41,1,0,True,False,False,False,True,False
+mut_002545,seed_0058,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testVal' was not declared in this scope,,,False,False,False,8,43,1,0,True,False,False,False,False,True
+mut_002666,seed_0090,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'outputX' was not declared in this scope,,,False,False,False,11,52,1,0,True,False,False,False,True,False
+mut_002693,seed_0098,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'countEvenNumbers' was not declared in this scope,,,False,False,False,9,42,1,0,True,True,False,False,False,True
+mut_002740,seed_0111,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testValX' was not declared in this scope,,,False,False,False,12,30,1,0,True,True,False,False,True,False
+mut_002791,seed_0123,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'param' was not declared in this scope,,,False,False,False,17,9,2,1,True,False,False,False,True,False
+mut_002821,seed_0007,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'score' was not declared in this scope,,,False,False,False,12,16,1,0,True,True,False,False,True,False
+mut_002870,seed_0021,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testVal' was not declared in this scope,,,False,False,False,11,36,1,0,True,True,False,False,True,False
+mut_002900,seed_0030,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'testValX' was not declared in this scope,,,False,False,False,11,30,1,0,True,False,False,False,True,False
+mut_002906,seed_0033,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'outputX' was not declared in this scope,,,False,False,False,11,52,1,0,True,False,False,False,True,False
+mut_002954,seed_0049,test,UNDECLARED_IDENTIFIER,SEMANTIC,error,'calculateCube' was not declared in this scope,,,False,False,False,10,45,1,0,True,False,False,False,True,False
+mut_000056,seed_0007,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,14,18,1,0,True,True,False,False,True,False
+mut_000089,seed_0011,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,23,12,1,0,True,False,False,False,True,False
+mut_000097,seed_0012,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,12,16,1,0,True,False,False,False,False,True
+mut_000161,seed_0020,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,12,12,1,0,True,True,False,False,False,True
+mut_000171,seed_0021,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,10,25,1,0,True,True,False,False,True,False
+mut_000252,seed_0030,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,20,12,1,0,True,False,False,False,True,False
+mut_000278,seed_0033,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,9,25,1,0,True,False,False,False,True,False
+mut_000398,seed_0047,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,10,25,1,0,True,True,False,False,True,False
+mut_000415,seed_0049,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,9,25,1,0,True,False,False,False,True,False
+mut_000497,seed_0058,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,10,12,1,0,True,False,False,False,False,True
+mut_000578,seed_0068,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,17,16,1,0,True,True,False,False,False,True
+mut_000606,seed_0071,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,19,16,1,0,True,False,True,False,True,False
+mut_000777,seed_0090,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,9,25,1,0,True,False,False,False,True,False
+mut_000788,seed_0091,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,20,16,1,0,True,True,False,False,True,False
+mut_000853,seed_0098,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,17,16,1,0,True,True,False,False,False,True
+mut_000967,seed_0111,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,21,12,1,0,True,True,False,False,True,False
+mut_001031,seed_0118,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,7,25,1,0,True,False,False,False,False,True
+mut_001047,seed_0120,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,10,18,1,0,True,False,False,False,True,False
+mut_001130,seed_0007,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,17,12,1,0,True,True,False,False,True,False
+mut_001152,seed_0012,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,24,12,1,0,True,False,False,False,False,True
+mut_001190,seed_0020,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,9,16,1,0,True,True,False,False,False,True
+mut_001197,seed_0021,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,19,16,1,0,True,True,False,False,True,False
+mut_001243,seed_0030,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,12,12,1,0,True,False,False,False,True,False
+mut_001265,seed_0033,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,18,16,1,0,True,False,False,False,True,False
+mut_001360,seed_0049,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,12,12,1,0,True,False,False,False,True,False
+mut_001412,seed_0058,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,18,12,1,0,True,False,False,False,False,True
+mut_001467,seed_0068,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,11,12,1,0,True,True,False,False,False,True
+mut_001525,seed_0079,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'long long int' [-fpermissive],,,False,False,False,10,24,1,0,True,False,False,False,True,False
+mut_001585,seed_0090,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,10,18,1,0,True,False,False,False,True,False
+mut_001628,seed_0098,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,9,18,1,0,True,True,False,False,False,True
+mut_001696,seed_0111,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,11,21,1,0,True,True,False,False,True,False
+mut_001734,seed_0118,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,10,12,1,0,True,False,False,False,False,True
+mut_001769,seed_0123,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,20,12,1,0,True,False,False,False,True,False
+mut_001813,seed_0007,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,10,18,1,0,True,True,False,False,True,False
+mut_001831,seed_0011,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,14,12,1,0,True,False,False,False,True,False
+mut_001914,seed_0033,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,12,12,1,0,True,False,False,False,True,False
+mut_002070,seed_0068,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,19,12,1,0,True,True,False,False,False,True
+mut_002080,seed_0071,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,21,12,1,0,True,False,True,False,True,False
+mut_002118,seed_0079,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,12,12,1,0,True,False,False,False,True,False
+mut_002176,seed_0091,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,12,21,1,0,True,True,False,False,True,False
+mut_002206,seed_0098,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,19,12,1,0,True,True,False,False,False,True
+mut_002259,seed_0111,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,13,12,1,0,True,True,False,False,True,False
+mut_002288,seed_0118,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,18,12,1,0,True,False,False,False,False,True
+mut_002297,seed_0120,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,18,16,1,0,True,False,False,False,True,False
+mut_002314,seed_0123,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,12,12,1,0,True,False,False,False,True,False
+mut_002366,seed_0011,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,11,13,1,0,True,False,False,False,True,False
+mut_002404,seed_0021,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,11,21,1,0,True,True,False,False,True,False
+mut_002453,seed_0033,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,10,18,1,0,True,False,False,False,True,False
+mut_002546,seed_0058,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,8,21,1,0,True,False,False,False,False,True
+mut_002600,seed_0071,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,13,12,1,0,True,False,True,False,True,False
+mut_002780,seed_0120,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,12,12,1,0,True,False,False,False,True,False
+mut_002868,seed_0020,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,8,16,1,0,True,True,False,False,False,True
+mut_002955,seed_0049,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'long long int' [-fpermissive],,,False,False,False,18,16,1,0,True,False,False,False,True,False
+mut_002992,seed_0068,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,9,18,1,0,True,True,False,False,False,True
+mut_003011,seed_0079,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'long long int' [-fpermissive],,,False,False,False,20,12,1,0,True,False,False,False,True,False
+mut_003073,seed_0123,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,18,16,1,0,True,False,False,False,True,False
+mut_003110,seed_0021,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,21,12,1,0,True,True,False,False,True,False
+mut_003121,seed_0033,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,20,12,1,0,True,False,False,False,True,False
+mut_003150,seed_0058,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,16,16,1,0,True,False,False,False,False,True
+mut_003191,seed_0091,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,14,12,1,0,True,True,False,False,True,False
+mut_003220,seed_0118,test,TYPE_MISMATCH,SEMANTIC,error,cannot convert 'const char*' to 'double' in return,,,False,False,False,16,16,1,0,True,False,False,False,False,True
+mut_003245,seed_0011,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'int' [-fpermissive],,,False,False,False,10,13,1,0,True,False,False,False,True,False
+mut_003279,seed_0049,test,TYPE_MISMATCH,SEMANTIC,error,invalid conversion from 'const char*' to 'long long int' [-fpermissive],,,False,False,False,10,24,1,0,True,False,False,False,True,False
+mut_000057,seed_0007,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,25,15,1,0,True,True,False,False,True,False
+mut_000172,seed_0021,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,17,34,2,1,True,True,False,False,True,False
+mut_000253,seed_0030,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,1,2,1,True,False,False,False,True,False
+mut_000498,seed_0058,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,18,21,1,0,True,False,False,False,False,True
+mut_000607,seed_0071,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,21,1,0,True,False,True,False,True,False
+mut_000681,seed_0079,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,1,2,1,True,False,False,False,True,False
+mut_000778,seed_0090,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,20,21,1,0,True,False,False,False,True,False
+mut_000789,seed_0091,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,23,1,2,1,True,True,False,False,True,False
+mut_000968,seed_0111,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,17,34,2,1,True,True,False,False,True,False
+mut_001191,seed_0020,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,22,5,1,0,True,True,False,False,False,True
+mut_001266,seed_0033,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,20,21,1,0,True,False,False,False,True,False
+mut_001351,seed_0047,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,22,1,2,1,True,True,False,False,True,False
+mut_001361,seed_0049,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,1,2,1,True,False,False,False,True,False
+mut_001468,seed_0068,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,20,1,2,1,True,True,False,False,False,True
+mut_001526,seed_0079,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,16,36,2,1,True,False,False,False,True,False
+mut_001735,seed_0118,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,14,41,2,1,True,False,False,False,False,True
+mut_001836,seed_0012,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,25,1,2,1,True,False,False,False,False,True
+mut_001915,seed_0033,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,16,27,2,1,True,False,False,False,True,False
+mut_001988,seed_0049,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,16,36,2,1,True,False,False,False,True,False
+mut_002207,seed_0098,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,20,1,2,1,True,True,False,False,False,True
+mut_002289,seed_0118,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,18,21,1,0,True,False,False,False,False,True
+mut_002315,seed_0123,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,20,21,1,0,True,False,False,False,True,False
+mut_002371,seed_0012,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,25,1,4,2,True,False,False,False,False,True
+mut_002441,seed_0030,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,20,21,1,0,True,False,False,False,True,False
+mut_002589,seed_0068,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,19,21,1,0,True,True,False,False,False,True
+mut_002630,seed_0079,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,20,21,1,0,True,False,False,False,True,False
+mut_002670,seed_0091,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,22,21,1,0,True,True,False,False,True,False
+mut_002832,seed_0011,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,26,30,2,1,True,False,False,False,True,False
+mut_002871,seed_0021,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,21,1,0,True,True,False,False,True,False
+mut_002973,seed_0058,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,19,1,2,1,True,False,False,False,False,True
+mut_002996,seed_0071,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,22,1,2,1,True,False,True,False,True,False
+mut_003097,seed_0012,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,25,1,6,3,True,False,False,False,False,True
+mut_003168,seed_0071,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,17,32,2,1,True,False,True,False,True,False
+mut_003214,seed_0111,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,21,1,0,True,True,False,False,True,False
+mut_003253,seed_0020,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' before ';' token,,,False,False,False,7,53,1,0,True,True,False,False,False,True
+mut_003254,seed_0021,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,22,1,2,1,True,True,False,False,True,False
+mut_003287,seed_0068,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,15,33,2,1,True,True,False,False,False,True
+mut_003304,seed_0098,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,15,33,2,1,True,True,False,False,False,True
+mut_003315,seed_0118,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,19,1,2,1,True,False,False,False,False,True
+mut_003343,seed_0058,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,14,41,2,1,True,False,False,False,False,True
+mut_003354,seed_0098,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,19,21,1,0,True,True,False,False,False,True
+mut_003360,seed_0111,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,22,1,2,1,True,True,False,False,True,False
+mut_003364,seed_0120,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,20,21,1,0,True,False,False,False,True,False
+mut_003371,seed_0007,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,20,41,2,1,True,True,False,False,True,False
+mut_003401,seed_0090,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,16,27,2,1,True,False,False,False,True,False
+mut_003420,seed_0011,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,28,38,1,0,True,False,False,False,True,False
+mut_003423,seed_0020,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,15,73,2,1,True,True,False,False,False,True
+mut_003425,seed_0030,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,16,27,2,1,True,False,False,False,True,False
+mut_003448,seed_0123,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,1,2,1,True,False,False,False,True,False
+mut_003463,seed_0047,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,21,1,0,True,True,False,False,True,False
+mut_003480,seed_0091,test,UNMATCHED_BRACES,SYNTAX,error,a function-definition is not allowed here before '{' token,,,False,False,False,18,29,2,1,True,True,False,False,True,False
+mut_003498,seed_0120,test,UNMATCHED_BRACES,SYNTAX,error,expected '}' at end of input,,,False,False,False,21,1,2,1,True,False,False,False,True,False
+mut_000090,seed_0011,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,28,1,0,True,False,False,False,True,False
+mut_000162,seed_0020,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,4,71,1,0,True,True,False,False,False,True
+mut_000254,seed_0030,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,17,19,2,0,True,False,False,False,True,False
+mut_000279,seed_0033,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,8,9,1,0,True,False,False,False,True,False
+mut_000399,seed_0047,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,7,27,1,0,True,True,False,False,True,False
+mut_000416,seed_0049,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,34,1,0,True,False,False,False,True,False
+mut_000499,seed_0058,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,4,39,1,0,True,False,False,False,False,True
+mut_000579,seed_0068,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,5,31,1,0,True,True,False,False,False,True
+mut_000608,seed_0071,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,11,41,1,0,True,False,True,False,True,False
+mut_000682,seed_0079,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,10,45,1,0,True,False,False,False,True,False
+mut_000790,seed_0091,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,8,27,1,0,True,True,False,False,True,False
+mut_000854,seed_0098,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,7,9,1,0,True,True,False,False,False,True
+mut_000969,seed_0111,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,11,43,1,0,True,True,False,False,True,False
+mut_001032,seed_0118,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,6,9,1,0,True,False,False,False,False,True
+mut_001048,seed_0120,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,25,1,0,True,False,False,False,True,False
+mut_001071,seed_0123,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,8,9,1,0,True,False,False,False,True,False
+mut_001149,seed_0011,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,8,9,1,0,True,False,False,False,True,False
+mut_001192,seed_0020,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before 'maxVal',,,False,False,False,21,26,1,0,True,True,False,False,False,True
+mut_001198,seed_0021,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,18,19,2,0,True,True,False,False,True,False
+mut_001244,seed_0030,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,25,1,0,True,False,False,False,True,False
+mut_001362,seed_0049,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,17,19,2,0,True,False,False,False,True,False
+mut_001586,seed_0090,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,8,9,1,0,True,False,False,False,True,False
+mut_001629,seed_0098,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,16,20,2,0,True,True,False,False,False,True
+mut_001697,seed_0111,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,18,19,2,0,True,True,False,False,True,False
+mut_001736,seed_0118,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,4,39,1,0,True,False,False,False,False,True
+mut_001837,seed_0012,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,20,9,1,0,True,False,False,False,False,True
+mut_001916,seed_0033,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,17,19,2,0,True,False,False,False,True,False
+mut_002081,seed_0071,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,7,30,1,0,True,False,True,False,True,False
+mut_002119,seed_0079,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,17,19,2,0,True,False,False,False,True,False
+mut_002177,seed_0091,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,19,19,2,0,True,True,False,False,True,False
+mut_002208,seed_0098,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,9,42,1,0,True,True,False,False,False,True
+mut_002260,seed_0111,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,9,9,1,0,True,True,False,False,True,False
+mut_002298,seed_0120,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,8,9,1,0,True,False,False,False,True,False
+mut_002316,seed_0123,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,17,19,2,0,True,False,False,False,True,False
+mut_002349,seed_0007,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,39,1,0,True,True,False,False,True,False
+mut_002400,seed_0020,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,10,35,1,0,True,True,False,False,False,True
+mut_002454,seed_0033,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,25,1,0,True,False,False,False,True,False
+mut_002513,seed_0049,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,8,9,1,0,True,False,False,False,True,False
+mut_002547,seed_0058,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,8,50,1,0,True,False,False,False,False,True
+mut_002590,seed_0068,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,16,20,2,0,True,True,False,False,False,True
+mut_002601,seed_0071,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,18,19,2,0,True,False,True,False,True,False
+mut_002667,seed_0090,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,17,19,2,0,True,False,False,False,True,False
+mut_002671,seed_0091,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,12,38,1,0,True,True,False,False,True,False
+mut_002822,seed_0007,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before 'return',,,False,False,False,21,25,1,0,True,True,False,False,True,False
+mut_002833,seed_0011,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,18,19,1,0,True,False,False,False,True,False
+mut_002872,seed_0021,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,11,43,1,0,True,True,False,False,True,False
+mut_002901,seed_0030,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected initializer before ')' token,,,False,False,False,8,9,1,0,True,False,False,False,True,False
+mut_002950,seed_0047,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,11,38,1,0,True,True,False,False,True,False
+mut_003037,seed_0098,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,5,31,1,0,True,True,False,False,False,True
+mut_003074,seed_0123,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,25,1,0,True,False,False,False,True,False
+mut_003093,seed_0007,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,15,40,1,0,True,True,False,False,True,False
+mut_003095,seed_0011,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,28,37,1,0,True,False,False,False,True,False
+mut_003117,seed_0030,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_003122,seed_0033,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_003178,seed_0079,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,34,1,0,True,False,False,False,True,False
+mut_003190,seed_0090,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,6,25,1,0,True,False,False,False,True,False
+mut_003221,seed_0118,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before '{' token,,,False,False,False,15,20,2,0,True,False,False,False,False,True
+mut_003226,seed_0123,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_003240,seed_0007,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected '(' before 'double',,,False,False,False,11,9,1,0,True,True,False,False,True,False
+mut_003246,seed_0011,test,UNMATCHED_PARENTHESES,SYNTAX,error,expected ')' before ';' token,,,False,False,False,11,28,1,0,True,False,False,False,True,False
+mut_000058,seed_0007,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'char' [-fpermissive]",,,False,False,False,25,5,1,0,True,True,False,False,True,False
+mut_000091,seed_0011,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,29,1,1,0,True,False,False,False,True,False
+mut_000098,seed_0012,test,MISSING_RETURN,SEMANTIC,error,no return statement in function returning non-void [-Werror=return-type],,,False,False,False,17,5,1,0,True,False,False,False,False,True
+mut_000255,seed_0030,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,18,9,1,0,True,False,False,False,True,False
+mut_000280,seed_0033,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_000400,seed_0047,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'bool' [-fpermissive]",,,False,False,False,19,9,1,0,True,True,False,False,True,False
+mut_000417,seed_0049,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_000580,seed_0068,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,17,9,1,0,True,True,False,False,False,True
+mut_000609,seed_0071,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,22,1,1,0,True,False,True,False,True,False
+mut_000779,seed_0090,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_000791,seed_0091,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,22,5,1,0,True,True,False,False,True,False
+mut_000855,seed_0098,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,20,1,1,0,True,True,False,False,False,True
+mut_001153,seed_0012,test,MISSING_RETURN,SEMANTIC,error,no return statement in function returning non-void [-Werror=return-type],,,False,False,False,13,5,1,0,True,False,False,False,False,True
+mut_001245,seed_0030,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,20,5,1,0,True,False,False,False,True,False
+mut_001469,seed_0068,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,20,1,1,0,True,True,False,False,False,True
+mut_001527,seed_0079,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'long long int' [-fpermissive]",,,False,False,False,20,5,1,0,True,False,False,False,True,False
+mut_001588,seed_0091,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,23,1,1,0,True,True,False,False,True,False
+mut_001698,seed_0111,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,22,1,1,0,True,True,False,False,True,False
+mut_001737,seed_0118,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,18,5,1,0,True,False,False,False,False,True
+mut_001770,seed_0123,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_001832,seed_0011,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,28,5,1,0,True,False,False,False,True,False
+mut_001876,seed_0021,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,22,1,1,0,True,True,False,False,True,False
+mut_001908,seed_0030,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_001917,seed_0033,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,18,9,1,0,True,False,False,False,True,False
+mut_001989,seed_0049,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'long long int' [-fpermissive]",,,False,False,False,18,9,1,0,True,False,False,False,True,False
+mut_002026,seed_0058,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,18,5,1,0,True,False,False,False,False,True
+mut_002082,seed_0071,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,19,9,1,0,True,False,True,False,True,False
+mut_002120,seed_0079,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'long long int' [-fpermissive]",,,False,False,False,18,9,1,0,True,False,False,False,True,False
+mut_002172,seed_0090,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,20,5,1,0,True,False,False,False,True,False
+mut_002178,seed_0091,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,20,9,1,0,True,True,False,False,True,False
+mut_002261,seed_0111,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,21,5,1,0,True,True,False,False,True,False
+mut_002290,seed_0118,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,16,9,1,0,True,False,False,False,False,True
+mut_002299,seed_0120,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,18,9,1,0,True,False,False,False,True,False
+mut_002350,seed_0007,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,26,1,1,0,True,True,False,False,True,False
+mut_002455,seed_0033,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,20,5,1,0,True,False,False,False,True,False
+mut_002508,seed_0047,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'bool' [-fpermissive]",,,False,False,False,21,5,1,0,True,True,False,False,True,False
+mut_002781,seed_0120,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,20,5,1,0,True,False,False,False,True,False
+mut_002792,seed_0123,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,20,5,1,0,True,False,False,False,True,False
+mut_002834,seed_0011,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,23,5,1,0,True,False,False,False,True,False
+mut_002837,seed_0012,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,16,9,1,0,True,False,False,False,False,True
+mut_002956,seed_0049,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'long long int' [-fpermissive]",,,False,False,False,20,5,1,0,True,False,False,False,True,False
+mut_002997,seed_0071,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,21,5,1,0,True,False,True,False,True,False
+mut_003069,seed_0120,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,21,1,1,0,True,False,False,False,True,False
+mut_003075,seed_0123,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,18,9,1,0,True,False,False,False,True,False
+mut_003165,seed_0068,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,19,5,1,0,True,True,False,False,False,True
+mut_003222,seed_0118,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,19,1,1,0,True,False,False,False,False,True
+mut_003255,seed_0021,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,19,9,1,0,True,True,False,False,True,False
+mut_003305,seed_0098,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,19,5,1,0,True,True,False,False,False,True
+mut_003321,seed_0011,test,MISSING_RETURN,SEMANTIC,error,no return statement in function returning non-void [-Werror=return-type],,,False,False,False,24,1,1,0,True,False,False,False,True,False
+mut_003323,seed_0012,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,12,9,1,0,True,False,False,False,False,True
+mut_003382,seed_0047,test,MISSING_RETURN,SEMANTIC,error,control reaches end of non-void function [-Werror=return-type],,,False,False,False,22,1,1,0,True,True,False,False,True,False
+mut_003402,seed_0090,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'int' [-fpermissive]",,,False,False,False,18,9,1,0,True,False,False,False,True,False
+mut_003433,seed_0058,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,16,9,1,0,True,False,False,False,False,True
+mut_003446,seed_0111,test,MISSING_RETURN,SEMANTIC,error,"return-statement with no value, in function returning 'double' [-fpermissive]",,,False,False,False,19,9,1,0,True,True,False,False,True,False
+mut_000059,seed_0007,test,INVALID_DECLARATION,SEMANTIC,error,redeclaration of 'double sum','double sum' previously declared here,,False,False,False,11,12,1,0,True,True,False,False,True,False
+mut_000092,seed_0011,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto g' has no initializer,,,False,False,False,11,10,1,0,True,False,False,False,True,False
+mut_000163,seed_0020,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double minV',previous declaration as 'int minV',,False,False,False,9,12,1,0,True,True,False,False,False,True
+mut_000173,seed_0021,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto output' has no initializer,,,False,False,False,11,10,1,0,True,True,False,False,True,False
+mut_000256,seed_0030,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'testVal',,,False,False,False,9,16,2,1,True,False,False,False,True,False
+mut_000281,seed_0033,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double testVal',previous declaration as 'const int testVal',,False,False,False,10,12,1,0,True,False,False,False,True,False
+mut_000401,seed_0047,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'testVal',,,False,False,False,10,16,2,1,True,True,False,False,True,False
+mut_000418,seed_0049,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double testVal',previous declaration as 'const int testVal',,False,False,False,10,12,1,0,True,False,False,False,True,False
+mut_000500,seed_0058,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto output' has no initializer,,,False,False,False,8,10,1,0,True,False,False,False,False,True
+mut_000581,seed_0068,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto testVal' has no initializer,,,False,False,False,8,10,1,0,True,True,False,False,False,True
+mut_000610,seed_0071,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto output' has no initializer,,,False,False,False,11,10,1,0,True,False,True,False,True,False
+mut_000683,seed_0079,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double testVal',previous declaration as 'const int testVal',,False,False,False,10,12,1,0,True,False,False,False,True,False
+mut_000780,seed_0090,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'testVal' declared void,,,False,False,False,9,10,2,1,True,False,False,False,True,False
+mut_000792,seed_0091,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'output',,,False,False,False,12,16,2,1,True,True,False,False,True,False
+mut_000856,seed_0098,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double output',previous declaration as 'int output',,False,False,False,10,12,1,0,True,True,False,False,False,True
+mut_000970,seed_0111,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto testVal' has no initializer,,,False,False,False,10,10,1,0,True,True,False,False,True,False
+mut_001033,seed_0118,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,8,10,2,1,True,False,False,False,False,True
+mut_001072,seed_0123,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,10,10,2,1,True,False,False,False,True,False
+mut_001131,seed_0007,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'grade',,,False,False,False,15,16,2,1,True,True,False,False,True,False
+mut_001150,seed_0011,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto x' has no initializer,,,False,False,False,9,10,1,0,True,False,False,False,True,False
+mut_001193,seed_0020,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'minV',,,False,False,False,8,16,2,1,True,True,False,False,False,True
+mut_001246,seed_0030,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto output' has no initializer,,,False,False,False,10,10,1,0,True,False,False,False,True,False
+mut_001267,seed_0033,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,10,10,2,1,True,False,False,False,True,False
+mut_001363,seed_0049,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'testVal',,,False,False,False,9,16,2,1,True,False,False,False,True,False
+mut_001413,seed_0058,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double testVal',previous declaration as 'const int testVal',,False,False,False,8,12,1,0,True,False,False,False,False,True
+mut_001470,seed_0068,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto output' has no initializer,,,False,False,False,9,10,1,0,True,True,False,False,False,True
+mut_001589,seed_0091,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,12,10,2,1,True,True,False,False,True,False
+mut_001738,seed_0118,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'output',,,False,False,False,8,16,2,1,True,False,False,False,False,True
+mut_001751,seed_0120,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'output',,,False,False,False,10,16,2,1,True,False,False,False,True,False
+mut_001771,seed_0123,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'output',,,False,False,False,10,16,2,1,True,False,False,False,True,False
+mut_001833,seed_0011,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double x',previous declaration as 'int x',,False,False,False,10,12,1,0,True,False,False,False,True,False
+mut_001909,seed_0030,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double output',previous declaration as 'int output',,False,False,False,11,12,1,0,True,False,False,False,True,False
+mut_001918,seed_0033,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double output',previous declaration as 'int output',,False,False,False,11,12,1,0,True,False,False,False,True,False
+mut_001980,seed_0047,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double testVal',previous declaration as 'const int testVal',,False,False,False,11,12,1,0,True,True,False,False,True,False
+mut_002027,seed_0058,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto testVal' has no initializer,,,False,False,False,7,10,1,0,True,False,False,False,False,True
+mut_002083,seed_0071,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'testVal',,,False,False,False,10,16,2,1,True,False,True,False,True,False
+mut_002121,seed_0079,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto testVal' has no initializer,,,False,False,False,9,10,1,0,True,False,False,False,True,False
+mut_002173,seed_0090,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double testVal',previous declaration as 'const int testVal',,False,False,False,10,12,1,0,True,False,False,False,True,False
+mut_002262,seed_0111,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto output' has no initializer,,,False,False,False,11,10,1,0,True,True,False,False,True,False
+mut_002300,seed_0120,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double output',previous declaration as 'int output',,False,False,False,11,12,1,0,True,False,False,False,True,False
+mut_002351,seed_0007,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'sum' declared void,,,False,False,False,10,10,3,2,True,True,False,False,True,False
+mut_002367,seed_0011,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'temp' declared void,,,False,False,False,19,14,2,1,True,False,False,False,True,False
+mut_002401,seed_0020,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'maxV',,,False,False,False,9,16,2,1,True,True,False,False,False,True
+mut_002405,seed_0021,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,11,10,2,1,True,True,False,False,True,False
+mut_002442,seed_0030,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'output',,,False,False,False,10,16,2,1,True,False,False,False,True,False
+mut_002509,seed_0047,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,11,10,2,1,True,True,False,False,True,False
+mut_002548,seed_0058,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'output',,,False,False,False,8,16,2,1,True,False,False,False,False,True
+mut_002591,seed_0068,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double output',previous declaration as 'int output',,False,False,False,10,12,1,0,True,True,False,False,False,True
+mut_002602,seed_0071,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'testVal' declared void,,,False,False,False,10,10,2,1,True,False,True,False,True,False
+mut_002668,seed_0090,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto testVal' has no initializer,,,False,False,False,9,10,1,0,True,False,False,False,True,False
+mut_002672,seed_0091,test,INVALID_DECLARATION,SEMANTIC,error,redeclaration of 'double output','double output' previously declared here,,False,False,False,13,12,1,0,True,True,False,False,True,False
+mut_002694,seed_0098,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'testVal' declared void,,,False,False,False,8,10,2,1,True,True,False,False,False,True
+mut_002741,seed_0111,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,11,10,2,1,True,True,False,False,True,False
+mut_002782,seed_0120,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,10,10,2,1,True,False,False,False,True,False
+mut_002823,seed_0007,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'avg',,,False,False,False,14,16,2,1,True,True,False,False,True,False
+mut_002835,seed_0011,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto temp' has no initializer,,,False,False,False,19,14,1,0,True,False,False,False,True,False
+mut_002869,seed_0020,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto minV' has no initializer,,,False,False,False,8,10,1,0,True,True,False,False,False,True
+mut_002902,seed_0030,test,INVALID_DECLARATION,SEMANTIC,error,variable or field 'output' declared void,,,False,False,False,10,10,2,1,True,False,False,False,True,False
+mut_002907,seed_0033,test,INVALID_DECLARATION,SEMANTIC,error,declaration of 'auto testVal' has no initializer,,,False,False,False,9,10,1,0,True,False,False,False,True,False
+mut_002951,seed_0047,test,INVALID_DECLARATION,SEMANTIC,error,two or more data types in declaration of 'output',,,False,False,False,11,16,2,1,True,True,False,False,True,False
+mut_002993,seed_0068,test,INVALID_DECLARATION,SEMANTIC,error,conflicting declaration 'double testVal',previous declaration as 'const int testVal',,False,False,False,9,12,1,0,True,True,False,False,False,True
+mut_000060,seed_0007,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,16,5,2,1,False,True,False,False,True,False
+mut_000093,seed_0011,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,13,5,2,1,False,False,False,False,True,False
+mut_000099,seed_0012,test,MISSING_HEADER,SEMANTIC,error,'cout' is not a member of 'std',,,False,False,False,22,5,4,3,False,False,False,False,False,True
+mut_000164,seed_0020,test,MISSING_HEADER,SEMANTIC,error,'cout' is not a member of 'std',,,False,False,False,11,5,2,1,False,True,False,False,False,True
+mut_000257,seed_0030,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,11,5,2,1,False,False,False,False,True,False
+mut_000282,seed_0033,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,11,5,2,1,False,False,False,False,True,False
+mut_000402,seed_0047,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,12,5,2,1,False,True,False,False,True,False
+mut_000419,seed_0049,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,11,5,2,1,False,False,False,False,True,False
+mut_000501,seed_0058,test,MISSING_HEADER,SEMANTIC,error,'cout' is not a member of 'std',,,False,False,False,9,5,2,1,False,False,False,False,False,True
+mut_000684,seed_0079,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,11,5,2,1,False,False,False,False,True,False
+mut_000781,seed_0090,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,11,5,2,1,False,False,False,False,True,False
+mut_000793,seed_0091,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,13,5,2,1,False,True,False,False,True,False
+mut_001034,seed_0118,test,MISSING_HEADER,SEMANTIC,error,'cout' is not a member of 'std',,,False,False,False,9,5,2,1,False,False,False,False,False,True
+mut_001049,seed_0120,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,11,5,2,1,False,False,False,False,True,False
+mut_001073,seed_0123,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,11,5,2,1,False,False,False,False,True,False
+mut_001132,seed_0007,test,MISSING_HEADER,SEMANTIC,error,'vector' was not declared in this scope,,,False,False,False,9,5,4,3,True,False,False,False,True,False
+mut_001485,seed_0071,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,12,5,2,1,False,False,True,False,True,False
+mut_002071,seed_0068,test,MISSING_HEADER,SEMANTIC,error,'cout' is not a member of 'std',,,False,False,False,10,5,2,1,False,True,False,False,False,True
+mut_002263,seed_0111,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,12,5,2,1,False,True,False,False,True,False
+mut_002873,seed_0021,test,MISSING_HEADER,SEMANTIC,error,'cout' was not declared in this scope,,,False,False,False,12,5,2,1,False,True,False,False,True,False
+mut_003306,seed_0098,test,MISSING_HEADER,SEMANTIC,error,'cout' is not a member of 'std',,,False,False,False,10,5,2,1,False,True,False,False,False,True
+mut_000061,seed_0007,test,MISSING_NAMESPACE,SEMANTIC,error,'vector' was not declared in this scope,suggested alternative: || 'std::vector',,False,False,False,9,5,6,5,True,True,False,False,True,False
+mut_000094,seed_0011,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,13,5,2,1,True,False,False,False,True,False
+mut_000100,seed_0012,test,MISSING_NAMESPACE,SEMANTIC,error,'endl' was not declared in this scope,suggested alternative: || 'std::endl',,False,False,False,22,45,1,0,True,False,False,False,False,True
+mut_000165,seed_0020,test,MISSING_NAMESPACE,SEMANTIC,error,'vector' was not declared in this scope,suggested alternative: || 'std::vector',,False,False,False,7,5,3,2,True,True,False,False,False,True
+mut_000174,seed_0021,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,12,5,2,1,True,True,False,False,True,False
+mut_000258,seed_0030,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,11,5,2,1,True,False,False,False,True,False
+mut_000283,seed_0033,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,11,5,2,1,True,False,False,False,True,False
+mut_000403,seed_0047,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,12,5,2,1,True,True,False,False,True,False
+mut_000420,seed_0049,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,11,5,2,1,True,False,False,False,True,False
+mut_000502,seed_0058,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,9,5,1,0,True,False,False,False,False,True
+mut_000582,seed_0068,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,10,5,1,0,True,True,False,False,False,True
+mut_000611,seed_0071,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,12,5,2,1,True,False,True,False,True,False
+mut_000685,seed_0079,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,11,5,2,1,True,False,False,False,True,False
+mut_000782,seed_0090,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,11,5,2,1,True,False,False,False,True,False
+mut_000794,seed_0091,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,13,5,2,1,True,True,False,False,True,False
+mut_000857,seed_0098,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,10,5,1,0,True,True,False,False,False,True
+mut_000971,seed_0111,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,12,5,2,1,True,True,False,False,True,False
+mut_001035,seed_0118,test,MISSING_NAMESPACE,SEMANTIC,error,'endl' was not declared in this scope,suggested alternative: || 'std::endl',,False,False,False,9,50,1,0,True,False,False,False,False,True
+mut_001050,seed_0120,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,11,5,2,1,True,False,False,False,True,False
+mut_001074,seed_0123,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,11,5,2,1,True,False,False,False,True,False
+mut_001154,seed_0012,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,23,5,1,0,True,False,False,False,False,True
+mut_001630,seed_0098,test,MISSING_NAMESPACE,SEMANTIC,error,'endl' was not declared in this scope,suggested alternative: || 'std::endl',,False,False,False,10,50,1,0,True,True,False,False,False,True
+mut_001739,seed_0118,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,9,5,1,0,True,False,False,False,False,True
+mut_002072,seed_0068,test,MISSING_NAMESPACE,SEMANTIC,error,'endl' was not declared in this scope,suggested alternative: || 'std::endl',,False,False,False,10,50,1,0,True,True,False,False,False,True
+mut_002372,seed_0012,test,MISSING_NAMESPACE,SEMANTIC,error,'endl' was not declared in this scope,suggested alternative: || 'std::endl',,False,False,False,23,55,1,0,True,False,False,False,False,True
+mut_002402,seed_0020,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,11,5,1,0,True,True,False,False,False,True
+mut_002974,seed_0058,test,MISSING_NAMESPACE,SEMANTIC,error,'endl' was not declared in this scope,suggested alternative: || 'std::endl',,False,False,False,9,50,1,0,True,False,False,False,False,True
+mut_003324,seed_0012,test,MISSING_NAMESPACE,SEMANTIC,error,'cout' was not declared in this scope,suggested alternative: || 'std::cout',,False,False,False,22,5,1,0,True,False,False,False,False,True
+mut_003327,seed_0020,test,MISSING_NAMESPACE,SEMANTIC,error,'endl' was not declared in this scope,suggested alternative: || 'std::endl',,False,False,False,11,58,1,0,True,True,False,False,False,True
+mut_000166,seed_0020,test,UNDEFINED_REFERENCE,LINKER,error,"C:\Users\RAJEEV\AppData\Local\Temp\cc8FmIYZ.o:main.cpp:(.text+0x74): undefined reference to `findMinMax(std::vector<int, std::allocator<int> > const&, int&, int&)'",,,False,False,True,,,1,0,True,True,False,False,False,True
+mut_000404,seed_0047,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cceJLECJ.o:main.cpp:(.text+0x26): undefined reference to `checkSorted(int)',,,False,False,True,,,1,0,True,True,False,False,True,False
+mut_000503,seed_0058,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\ccU3u4SM.o:main.cpp:(.text+0x25): undefined reference to `calculateDiscriminant(int)',,,False,False,True,,,1,0,True,False,False,False,False,True
+mut_000612,seed_0071,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cc8qvINt.o:main.cpp:(.text+0x25): undefined reference to `getStringLength(int)',,,False,False,True,,,1,0,True,False,True,False,True,False
+mut_000686,seed_0079,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\ccbSXWUa.o:main.cpp:(.text+0x25): undefined reference to `calculateCube(int)',,,False,False,True,,,1,0,True,False,False,False,True,False
+mut_000783,seed_0090,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cceQTmJx.o:main.cpp:(.text+0x25): undefined reference to `swapValues(int)',,,False,False,True,,,1,0,True,False,False,False,True,False
+mut_000858,seed_0098,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cciRg0ka.o:main.cpp:(.text+0x25): undefined reference to `countEvenNumbers(int)',,,False,False,True,,,1,0,True,True,False,False,False,True
+mut_001036,seed_0118,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\ccBPRygm.o:main.cpp:(.text+0x25): undefined reference to `calculateDiscriminant(int)',,,False,False,True,,,1,0,True,False,False,False,False,True
+mut_001051,seed_0120,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\ccQgbN4i.o:main.cpp:(.text+0x25): undefined reference to `swapValues(int)',,,False,False,True,,,1,0,True,False,False,False,True,False
+mut_001268,seed_0033,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\ccSec7zU.o:main.cpp:(.text+0x25): undefined reference to `printTable(int)',,,False,False,True,,,1,0,True,False,False,False,True,False
+mut_001352,seed_0047,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\ccRb6mW7.o:main.cpp:(.text+0x26): undefined reference to `checkSorted(int)',,,False,False,True,,,1,0,True,True,False,False,True,False
+mut_001471,seed_0068,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\ccEJXoEK.o:main.cpp:(.text+0x25): undefined reference to `countEvenNumbers(int)',,,False,False,True,,,1,0,True,True,False,False,False,True
+mut_002179,seed_0091,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cc3H6v43.o:main.cpp:(.text+0x25): undefined reference to `getMedian(int)',,,False,False,True,,,1,0,True,True,False,False,True,False
+mut_002317,seed_0123,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cc6Vlrq5.o:main.cpp:(.text+0x25): undefined reference to `printTable(int)',,,False,False,True,,,1,0,True,False,False,False,True,False
+mut_002368,seed_0011,test,UNDEFINED_REFERENCE,LINKER,error,"C:\Users\RAJEEV\AppData\Local\Temp\ccPHWoZl.o:main.cpp:(.text+0x32): undefined reference to `computeGCD(int, int)'",,,False,False,True,,,2,0,True,False,False,False,True,False
+mut_002443,seed_0030,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cc8NyQDr.o:main.cpp:(.text+0x25): undefined reference to `swapValues(int)',,,False,False,True,,,1,0,True,False,False,False,True,False
+mut_002742,seed_0111,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cc88OlH1.o:main.cpp:(.text+0x25): undefined reference to `computeAverage(int)',,,False,False,True,,,1,0,True,True,False,False,True,False
+mut_002957,seed_0049,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cclS0eop.o:main.cpp:(.text+0x25): undefined reference to `calculateCube(int)',,,False,False,True,,,1,0,True,False,False,False,True,False
+mut_003374,seed_0021,test,UNDEFINED_REFERENCE,LINKER,error,C:\Users\RAJEEV\AppData\Local\Temp\cc8jxXaY.o:main.cpp:(.text+0x25): undefined reference to `computeAverage(int)',,,False,False,True,,,1,0,True,True,False,False,True,False
+mut_000062,seed_0007,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'char computeLetterGrade(double)',declared here,,False,False,False,15,64,1,0,True,True,False,False,True,False
+mut_000101,seed_0012,test,WRONG_ARGUMENTS,SEMANTIC,error,no matching function for call to 'Rectangle::Rectangle(double)',"candidate: Rectangle::Rectangle(double, double) || candidate expects 2 arguments, 1 provided || candidate: constexpr Rectangle::Rectangle(const Rectangle&) || no known conversion for argument 1 from 'double' to 'const Rectangle&' || candidate: constexpr Rectangle::Rectangle(Rectangle&&) || no known conversion for argument 1 from 'double' to 'Rectangle&&'",,False,False,False,21,23,1,0,True,False,False,False,False,True
+mut_000167,seed_0020,test,WRONG_ARGUMENTS,SEMANTIC,error,"too many arguments to function 'void findMinMax(const std::vector<int>&, int&, int&)'",declared here,,False,False,False,10,59,1,0,True,True,False,False,False,True
+mut_000259,seed_0030,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int swapValues()',declared here,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_000284,seed_0033,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int printTable(int)',declared here,,False,False,False,10,60,1,0,True,False,False,False,True,False
+mut_000421,seed_0049,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'long long int calculateCube(int)',declared here,,False,False,False,10,38,1,0,True,False,False,False,True,False
+mut_000504,seed_0058,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double calculateDiscriminant()',declared here,,False,False,False,8,50,1,0,True,False,False,False,False,True
+mut_000583,seed_0068,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int countEvenNumbers()',declared here,,False,False,False,9,42,1,0,True,True,False,False,False,True
+mut_000687,seed_0079,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'long long int calculateCube(int)',declared here,,False,False,False,10,38,1,0,True,False,False,False,True,False
+mut_000784,seed_0090,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int swapValues(int)',declared here,,False,False,False,10,60,1,0,True,False,False,False,True,False
+mut_000795,seed_0091,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double getMedian()',declared here,,False,False,False,12,38,1,0,True,True,False,False,True,False
+mut_000859,seed_0098,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int countEvenNumbers()',declared here,,False,False,False,9,42,1,0,True,True,False,False,False,True
+mut_000972,seed_0111,test,WRONG_ARGUMENTS,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,7,46,3,0,True,True,False,False,True,False
+mut_001037,seed_0118,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double calculateDiscriminant()',declared here,,False,False,False,8,50,1,0,True,False,False,False,False,True
+mut_001133,seed_0007,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'char computeLetterGrade()',declared here,,False,False,False,15,40,1,0,True,True,False,False,True,False
+mut_001194,seed_0020,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'void findMinMax(const std::vector<int>&)',declared here,,False,False,False,10,35,1,0,True,True,False,False,False,True
+mut_001199,seed_0021,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double computeAverage(int)',declared here,,False,False,False,11,67,1,0,True,True,False,False,True,False
+mut_001590,seed_0091,test,WRONG_ARGUMENTS,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,8,41,3,0,True,True,False,False,True,False
+mut_001752,seed_0120,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int swapValues(int)',declared here,,False,False,False,10,60,1,0,True,False,False,False,True,False
+mut_001772,seed_0123,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int printTable(int)',declared here,,False,False,False,10,60,1,0,True,False,False,False,True,False
+mut_001834,seed_0011,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int computeLCM(int)',declared here,,False,False,False,12,28,1,0,True,False,False,False,True,False
+mut_001877,seed_0021,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'double computeAverage(int)',declared here,,False,False,False,11,36,1,0,True,True,False,False,True,False
+mut_001981,seed_0047,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'bool checkSorted(int)',declared here,,False,False,False,11,62,1,0,True,True,False,False,True,False
+mut_002073,seed_0068,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int countEvenNumbers(int)',declared here,,False,False,False,9,66,1,0,True,True,False,False,False,True
+mut_002180,seed_0091,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double getMedian(int)',declared here,,False,False,False,12,62,1,0,True,True,False,False,True,False
+mut_002264,seed_0111,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double computeAverage(int)',declared here,,False,False,False,11,67,1,0,True,True,False,False,True,False
+mut_002301,seed_0120,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int swapValues()',declared here,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_002352,seed_0007,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'char computeLetterGrade(double)',declared here,,False,False,False,15,37,1,0,True,True,False,False,True,False
+mut_002369,seed_0011,test,WRONG_ARGUMENTS,SEMANTIC,error,"too few arguments to function 'int computeGCD(int, int)'",declared here,,False,False,False,28,34,1,0,True,False,False,False,True,False
+mut_002373,seed_0012,test,WRONG_ARGUMENTS,SEMANTIC,error,"no matching function for call to 'Rectangle::Rectangle(double, double, const char [21])'","candidate: Rectangle::Rectangle(double, double) || candidate expects 2 arguments, 3 provided || candidate: constexpr Rectangle::Rectangle(const Rectangle&) || candidate expects 1 argument, 3 provided || candidate: constexpr Rectangle::Rectangle(Rectangle&&) || candidate expects 1 argument, 3 provided",,False,False,False,21,52,1,0,True,False,False,False,False,True
+mut_002406,seed_0021,test,WRONG_ARGUMENTS,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,7,46,3,0,True,True,False,False,True,False
+mut_002444,seed_0030,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'int swapValues(int)',declared here,,False,False,False,10,29,1,0,True,False,False,False,True,False
+mut_002456,seed_0033,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'int printTable(int)',declared here,,False,False,False,10,29,1,0,True,False,False,False,True,False
+mut_002549,seed_0058,test,WRONG_ARGUMENTS,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,4,53,3,0,True,False,False,False,False,True
+mut_002669,seed_0090,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int swapValues()',declared here,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_002743,seed_0111,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'double computeAverage(int)',declared here,,False,False,False,11,36,1,0,True,True,False,False,True,False
+mut_002783,seed_0120,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'int swapValues(int)',declared here,,False,False,False,10,29,1,0,True,False,False,False,True,False
+mut_002793,seed_0123,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'int printTable(int)',declared here,,False,False,False,10,29,1,0,True,False,False,False,True,False
+mut_002836,seed_0011,test,WRONG_ARGUMENTS,SEMANTIC,error,"too many arguments to function 'int computeGCD(int, int)'",declared here,,False,False,False,11,52,1,0,True,False,False,False,True,False
+mut_002838,seed_0012,test,WRONG_ARGUMENTS,SEMANTIC,error,no matching function for call to 'Rectangle::Rectangle(const char [22])',"candidate: Rectangle::Rectangle(double, double) || candidate expects 2 arguments, 1 provided || candidate: constexpr Rectangle::Rectangle(const Rectangle&) || no known conversion for argument 1 from 'const char [22]' to 'const Rectangle&' || candidate: constexpr Rectangle::Rectangle(Rectangle&&) || no known conversion for argument 1 from 'const char [22]' to 'Rectangle&&'",,False,False,False,21,43,1,0,True,False,False,False,False,True
+mut_002952,seed_0047,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'bool checkSorted()',declared here,,False,False,False,11,38,1,0,True,True,False,False,True,False
+mut_002958,seed_0049,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'long long int calculateCube(int)',declared here,,False,False,False,10,69,1,0,True,False,False,False,True,False
+mut_002975,seed_0058,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double calculateDiscriminant(int)',declared here,,False,False,False,8,74,1,0,True,False,False,False,False,True
+mut_002998,seed_0071,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int getStringLength(int)',declared here,,False,False,False,11,65,1,0,True,False,True,False,True,False
+mut_003012,seed_0079,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'long long int calculateCube(int)',declared here,,False,False,False,10,69,1,0,True,False,False,False,True,False
+mut_003066,seed_0118,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double calculateDiscriminant(int)',declared here,,False,False,False,8,74,1,0,True,False,False,False,False,True
+mut_003076,seed_0123,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int printTable()',declared here,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_003094,seed_0007,test,WRONG_ARGUMENTS,SEMANTIC,error,cannot convert 'const char*' to 'double' for argument '1' to 'char computeLetterGrade(double)',,,False,False,False,15,60,1,0,True,True,False,False,True,False
+mut_003096,seed_0011,test,WRONG_ARGUMENTS,SEMANTIC,error,"too few arguments to function 'int computeGCD(int, int)'",declared here,,False,False,False,11,25,1,0,True,False,False,False,True,False
+mut_003169,seed_0071,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int getStringLength()',declared here,,False,False,False,11,41,1,0,True,False,True,False,True,False
+mut_003192,seed_0091,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'double getMedian(int)',declared here,,False,False,False,12,31,1,0,True,True,False,False,True,False
+mut_003202,seed_0098,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'int countEvenNumbers(int)',declared here,,False,False,False,9,35,1,0,True,True,False,False,False,True
+mut_003215,seed_0111,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double computeAverage()',declared here,,False,False,False,11,43,1,0,True,True,False,False,True,False
+mut_003322,seed_0011,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int computeGCD(int)',declared here,,False,False,False,11,28,1,0,True,False,False,False,True,False
+mut_003338,seed_0047,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'bool checkSorted(int)',declared here,,False,False,False,11,31,1,0,True,True,False,False,True,False
+mut_003344,seed_0058,test,WRONG_ARGUMENTS,SEMANTIC,error,too few arguments to function 'double calculateDiscriminant(int)',declared here,,False,False,False,8,43,1,0,True,False,False,False,False,True
+mut_003363,seed_0118,test,WRONG_ARGUMENTS,SEMANTIC,error,cannot convert 'const char*' to 'double' in initialization,,,False,False,False,4,53,3,0,True,False,False,False,False,True
+mut_003377,seed_0030,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int swapValues(int)',declared here,,False,False,False,10,60,1,0,True,False,False,False,True,False
+mut_003393,seed_0079,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'long long int calculateCube()',declared here,,False,False,False,10,45,1,0,True,False,False,False,True,False
+mut_003407,seed_0098,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int countEvenNumbers(int)',declared here,,False,False,False,9,66,1,0,True,True,False,False,False,True
+mut_003424,seed_0020,test,WRONG_ARGUMENTS,SEMANTIC,error,"too few arguments to function 'void findMinMax(const std::vector<int>&, int&, int&)'",declared here,,False,False,False,10,23,1,0,True,True,False,False,False,True
+mut_003455,seed_0021,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'double computeAverage()',declared here,,False,False,False,11,43,1,0,True,True,False,False,True,False
+mut_003459,seed_0033,test,WRONG_ARGUMENTS,SEMANTIC,error,too many arguments to function 'int printTable()',declared here,,False,False,False,10,36,1,0,True,False,False,False,True,False
+mut_000168,seed_0020,test,CONST_VIOLATION,SEMANTIC,error,binding 'const int' to reference of type 'int&' discards qualifiers,"initializing argument 3 of 'void findMinMax(const std::vector<int>&, int&, int&)'",,False,False,False,10,35,1,0,True,True,False,False,False,True
+mut_000285,seed_0033,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,10,15,1,0,True,False,False,False,True,False
+mut_000405,seed_0047,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,11,15,1,0,True,True,False,False,True,False
+mut_000422,seed_0049,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,10,15,1,0,True,False,False,False,True,False
+mut_000584,seed_0068,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,9,15,1,0,True,True,False,False,False,True
+mut_000688,seed_0079,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,10,15,1,0,True,False,False,False,True,False
+mut_000785,seed_0090,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,10,15,1,0,True,False,False,False,True,False
+mut_000796,seed_0091,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,12,15,1,0,True,True,False,False,True,False
+mut_000860,seed_0098,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,9,15,1,0,True,True,False,False,False,True
+mut_000973,seed_0111,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,11,15,1,0,True,True,False,False,True,False
+mut_001052,seed_0120,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,10,15,1,0,True,False,False,False,True,False
+mut_001075,seed_0123,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,10,15,1,0,True,False,False,False,True,False
+mut_001134,seed_0007,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'sum',,,False,False,False,12,16,1,0,True,True,False,False,True,False
+mut_001247,seed_0030,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,10,15,1,0,True,False,False,False,True,False
+mut_001740,seed_0118,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,8,15,1,0,True,False,False,False,False,True
+mut_001875,seed_0020,test,CONST_VIOLATION,SEMANTIC,error,binding 'const int' to reference of type 'int&' discards qualifiers,"initializing argument 2 of 'void findMinMax(const std::vector<int>&, int&, int&)'",,False,False,False,10,35,1,0,True,True,False,False,False,True
+mut_001878,seed_0021,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,11,15,1,0,True,True,False,False,True,False
+mut_002084,seed_0071,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,11,15,1,0,True,False,True,False,True,False
+mut_002976,seed_0058,test,CONST_VIOLATION,SEMANTIC,error,assignment of read-only variable 'testVal',,,False,False,False,8,15,1,0,True,False,False,False,False,True

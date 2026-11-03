@@ -19,6 +19,7 @@ dist-ssr/
 # Environment
 .env
 .env.local
+.env.example
 
 # IDE / OS
 .idea/
@@ -28,7 +29,9 @@ dist-ssr/
 .DS_Store
 Thumbs.db
 
-# Sandbox temp / models
+# Sandbox temp / models / ml cache
 backend/temp/
+ml/data/.cache/
+ml/data/rejects.jsonl
 ml/models/*.pkl
 ml/models/*.joblib
